@@ -1,0 +1,13 @@
+Discipline,Model_Configuration,Cohort_Spearman_Rho,Cohort_Kendall_Tau,Top10_Overlap_Pct,Top20_Overlap_Pct,Top10_Max_Rank_Shift,Top10_Mean_Rank_Shift,Key_Movement_Observation
+Batter,Official Model (40/30/15/15),1.0,1.0,100.0,100.0,0,0.0,Zero Top-10 Membership Change
+Batter,Equal Weights (25/25/25/25),0.9744,0.8742,90.0,85.0,5,1.9,Dropped: ['Glenn Maxwell'] | Entered: ['Shashank Singh']
+Batter,Rate-Heavy (60/20/10/10),0.9963,0.9558,90.0,90.0,2,1.0,Dropped: ['Suryakumar Yadav'] | Entered: ['Heinrich Klaasen']
+Batter,Pure Rate Delta (100% SR),0.9767,0.878,60.0,85.0,6,3.2,"Dropped: ['Suryakumar Yadav', 'Ashutosh Sharma', 'Rinku Singh', 'Reeza Hendricks'] | Entered: ['Heinrich Klaasen', 'Nicholas Pooran', 'Sherfane Rutherford', 'Shubman Gill']"
+Batter,Wicket-Preserving (30/20/15/35),0.9564,0.8276,90.0,80.0,6,2.5,Dropped: ['Glenn Maxwell'] | Entered: ['Shashank Singh']
+Batter,Boundary-Maximizer (30/50/10/10),0.9846,0.8983,90.0,85.0,5,1.2,Dropped: ['Shreyas Iyer'] | Entered: ['Dhruv Jurel']
+Bowler,Official Model (40/30/15/15),1.0,1.0,100.0,100.0,0,0.0,Zero Top-10 Membership Change
+Bowler,Equal Weights (25/25/25/25),0.9649,0.8385,70.0,85.0,11,4.7,"Dropped: ['George Dockrell', 'Saim Ayub', 'Imad Wasim'] | Entered: ['Shaheen Afridi', 'Mark Wood', 'Nasum Ahmed']"
+Bowler,Rate-Heavy (60/20/10/10),0.9947,0.9402,90.0,90.0,3,1.0,Dropped: ['Hasan Mahmud'] | Entered: ['Sunil Narine']
+Bowler,Pure Rate Delta (100% Econ),0.9652,0.8447,80.0,75.0,9,2.1,"Dropped: ['Sufiyan Muqeem', 'Hasan Mahmud'] | Entered: ['Sunil Narine', 'Mustafizur Rahman']"
+Bowler,Wicket-Hunter (30/20/15/35),0.9365,0.7808,70.0,75.0,25,8.1,"Dropped: ['Sufiyan Muqeem', 'Saim Ayub', 'Imad Wasim'] | Entered: ['Taskin Ahmed', 'Mark Wood', 'Brydon Carse']"
+Bowler,Boundary-Suppressor (30/50/10/10),0.972,0.8563,70.0,75.0,11,4.6,"Dropped: ['Hasan Mahmud', 'Salman Mirza', 'Matheesha Pathirana'] | Entered: ['Mohammad Nawaz', 'Iftikhar Ahmed', 'Sunil Narine']"

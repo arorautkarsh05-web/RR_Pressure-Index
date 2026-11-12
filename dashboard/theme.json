@@ -1,0 +1,123 @@
+{
+  "name": "RR Auction Intelligence 2027",
+  "dataColors": [
+    "#E81B84",
+    "#004BA0",
+    "#FFB81C",
+    "#00C49F",
+    "#00B4D8",
+    "#FF4B4B",
+    "#8B5CF6",
+    "#38BDF8",
+    "#F43F5E",
+    "#10B981"
+  ],
+  "background": "#0B132B",
+  "foreground": "#FFFFFF",
+  "tableAccent": "#E81B84",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#151E3F" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#243356" } },
+            "radius": 8
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 12,
+            "alignment": "Left"
+          }
+        ],
+        "subTitle": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#94A3B8" } },
+            "fontFamily": "Segoe UI",
+            "fontSize": 9
+          }
+        ],
+        "general": [
+          {
+            "responsive": true
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#0B132B" } },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "cardTitle": [
+          {
+            "color": { "solid": { "color": "#94A3B8" } },
+            "fontSize": 10,
+            "fontFamily": "Segoe UI"
+          }
+        ],
+        "cardData": [
+          {
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "fontSize": 24,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "grid": [
+          {
+            "outlineColor": { "solid": { "color": "#243356" } },
+            "gridVertical": false,
+            "gridHorizontal": true,
+            "gridHorizontalColor": { "solid": { "color": "#1C274C" } }
+          }
+        ],
+        "columnHeaders": [
+          {
+            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "backColor": { "solid": { "color": "#1C274C" } },
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 10
+          }
+        ],
+        "values": [
+          {
+            "fontColorPrimary": { "solid": { "color": "#E2E8F0" } },
+            "backColorPrimary": { "solid": { "color": "#151E3F" } },
+            "fontColorSecondary": { "solid": { "color": "#E2E8F0" } },
+            "backColorSecondary": { "solid": { "color": "#111827" } },
+            "fontFamily": "Segoe UI",
+            "fontSize": 9
+          }
+        ]
+      }
+    }
+  }
+}
+

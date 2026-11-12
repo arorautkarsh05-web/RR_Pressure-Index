@@ -1,0 +1,7 @@
+ContextID,ContextName,Innings,PhaseName,IsBatPressure,IsBowlLeverage,Description
+1,Chasing Clutch (Innings 2),2,Chase Under Deficit,1,1,"High required run rate, steep par deficit, or critical wicket loss while chasing."
+2,Collapse Crisis (Innings 1),1,Early Top-Order Loss,1,0,Early top-order loss (3+ wickets down early) requiring crisis consolidation.
+3,Death Overs Execution (Overs 17-20),0,Death Overs,1,1,"Final phase acceleration for batters, boundary and yorker execution for bowlers."
+4,Powerplay High-Leverage (Overs 1-6),0,Powerplay,0,1,Field restrictions and new ball execution with high swing/wicket stakes.
+5,Middle Overs Tactical (Overs 7-16),0,Middle Overs,1,1,"Spin containment, rotation of strike, and boundary pacing under par deficit."
+6,Normal Baseline Conditions,0,Normal Flow,0,0,Standard match conditions with low leverage and par required rates.

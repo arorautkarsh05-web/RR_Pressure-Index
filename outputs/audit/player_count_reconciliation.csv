@@ -1,0 +1,9 @@
+Metric_Dimension,Count,Description
+Phase 01 Audited Squad Players,1132,Unique players named in playing elevens across 853 matches
+Batter Profiles Qualified (N >= 10 balls),676,Batters meeting minimum exposure threshold of 10 balls faced
+Bowler Profiles Qualified (N >= 12 balls),559,Bowlers meeting minimum exposure threshold of 12 legal balls bowled
+Dual-Discipline Players (All-Rounders),379,Players qualifying as BOTH a batter (>=10 balls) and bowler (>=12 balls)
+Total Player-Role Profiles Generated,1235,Sum of batter profiles (676) + bowler profiles (559)
+Unique Human Players with Active Profiles,856,Active individuals in baseline database (676 + 559 - 379)
+Under-Threshold Squad Players,276,"Specialist keepers, benched fielders, or tailenders facing <10 balls and bowling <12 balls"
+Mathematical Reconciliation Identity Check,1,"Verified: 856 Active + 276 Under-Threshold = 1,132 Total (100% Reconciled)"

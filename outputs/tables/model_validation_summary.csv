@@ -1,0 +1,11 @@
+test_category,metric_or_parameter,statistical_result,validation_status
+Delivery Pressure Distribution,Total Deliveries Audited,"194,014",Passed
+Delivery Pressure Distribution,High/Extreme Pressure Proportion (LI >= 0.55),"16.1% (31,297 balls)",Passed (Balanced T20 Ratio)
+Delivery Pressure Distribution,Low Pressure Proportion (LI < 0.35),"60.1% (116,603 balls)",Passed
+Empirical Bayes Shrinkage,Batter Prior Mean (Pressure SR),143.55,Calibrated
+Empirical Bayes Shrinkage,Bowler Prior Mean (Pressure Econ),8.88,Calibrated
+Ranking Stability,Spearman Rho (K=15 vs K=30),0.9988,Robust (> 0.98)
+Ranking Stability,Spearman Rho (K=45 vs K=30),0.9993,Robust (> 0.98)
+Discriminant Validity,Max Correlation between Contextual Indices,0.611,Passed (Distinct Dimensions < 0.65)
+Format Transferability,Batting SR Pearson r (IPL vs T20I),r = 0.442 (p < 0.001),Statistically Significant
+Format Transferability,Bowling Econ Pearson r (IPL vs T20I),r = 0.247 (p < 0.001),Statistically Significant

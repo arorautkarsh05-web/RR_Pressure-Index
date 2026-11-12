@@ -1,0 +1,21 @@
+discipline,official_rank,player_id,player_name,official_cpri,p_rank_1_pct,p_rank_le_3_pct,p_rank_le_5_pct,p_rank_le_10_pct,median_posterior_rank,rank_95_ci_low,rank_95_ci_high,linguistic_governance_directive
+Batter,1,37052,Naman Dhir,74.41,37.27,67.05,79.69,92.4,2.0,1.0,16.0,Permitted: 'Certified Top 10 asset' (FORBIDDEN: 'Definitive rank position')
+Batter,2,6396,Tim David,72.46,15.85,52.08,72.87,92.64,3.0,1.0,15.0,Permitted: 'Certified Top 10 asset' (FORBIDDEN: 'Definitive rank position')
+Batter,3,5553,Phil Salt,71.83,21.3,46.94,61.26,79.78,4.0,1.0,29.0,Permitted: 'Certified Top 10 asset' (FORBIDDEN: 'Definitive rank position')
+Batter,4,813,Jos Buttler,69.3,5.13,22.97,40.56,70.43,7.0,1.0,27.0,Permitted: 'Certified Top 10 asset' (FORBIDDEN: 'Definitive rank position')
+Batter,5,768,Reeza Hendricks,68.48,6.08,21.91,36.08,60.77,8.0,1.0,35.0,Permitted: 'Provisional Top 10 contender with wide interval'
+Batter,6,838,Glenn Maxwell,67.79,2.96,14.33,28.02,56.42,9.0,1.0,32.0,Permitted: 'Provisional Top 10 contender with wide interval'
+Batter,7,8101,Ashutosh Sharma,67.47,2.65,12.65,24.83,52.49,10.0,1.0,34.0,Permitted: 'Provisional Top 10 contender with wide interval'
+Batter,8,4708,Rinku Singh,67.44,1.6,10.39,22.52,53.66,10.0,2.0,30.0,Permitted: 'Provisional Top 10 contender with wide interval'
+Batter,9,1699,Suryakumar Yadav,66.8,0.37,3.69,12.57,45.85,11.0,3.0,27.0,Permitted: 'Provisional Top 10 contender with wide interval'
+Batter,10,3647,Shreyas Iyer,66.32,0.73,5.9,15.32,42.2,12.0,2.0,35.0,Permitted: 'Provisional Top 10 contender with wide interval'
+Bowler,1,2933,Jasprit Bumrah,76.83,11.42,41.59,64.62,91.15,4.0,1.0,15.0,Permitted: 'Certified Top 10 asset' (FORBIDDEN: 'Definitive rank position')
+Bowler,2,2984,Sikandar Raza,75.6,11.91,33.57,50.2,75.76,5.0,1.0,28.0,Permitted: 'Certified Top 10 asset' (FORBIDDEN: 'Definitive rank position')
+Bowler,3,7364,Haris Rauf,74.13,4.38,19.52,35.95,68.21,7.0,1.0,28.0,Permitted: 'Provisional Top 10 contender with wide interval'
+Bowler,4,1101,George Dockrell,73.92,15.86,30.32,40.74,58.55,8.0,1.0,63.0,Permitted: 'Provisional Top 10 contender with wide interval'
+Bowler,5,3578,Imad Wasim,73.5,11.14,26.35,37.44,57.03,8.0,1.0,57.0,Permitted: 'Provisional Top 10 contender with wide interval'
+Bowler,6,20704,Salman Mirza,72.0,8.8,21.31,30.67,49.12,11.0,1.0,70.0,Permitted: 'Provisional Top 10 contender with wide interval'
+Bowler,7,8661,Matheesha Pathirana,71.76,1.6,8.66,18.62,45.96,11.0,2.0,39.0,Permitted: 'Provisional Top 10 contender with wide interval'
+Bowler,8,34485,Sufiyan Muqeem,71.49,7.77,18.71,27.89,45.58,12.0,1.0,72.0,Permitted: 'Provisional Top 10 contender with wide interval'
+Bowler,9,6643,Hasan Mahmud,69.96,4.01,11.56,19.23,36.11,15.0,1.0,73.0,Permitted: 'Provisional Top 10 contender with wide interval'
+Bowler,10,7690,Saim Ayub,69.85,1.59,6.75,13.28,31.18,16.0,2.0,59.0,Permitted: 'Provisional Top 10 contender with wide interval'

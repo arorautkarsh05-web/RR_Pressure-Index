@@ -1,0 +1,21 @@
+Official_Rank,Player_Name,Discipline,Official_Certified_Balls,Profile_Legal_Pressure_Balls,Raw_Psi_ge_0_55_Events,Alternative_Psi_ge_0_60_Events,Model_Threshold_Version,Audit_Verdict
+1,Naman Dhir,Batter,91,91,96,93,Psi_bat >= 0.55 (Engine Approved),CONFIRMED & HARMONIZED
+2,Tim David,Batter,207,207,219,186,Psi_bat >= 0.55 (Engine Approved),CONFIRMED & HARMONIZED
+3,Phil Salt,Batter,55,55,56,51,Psi_bat >= 0.55 (Engine Approved),CONFIRMED & HARMONIZED
+4,Jos Buttler,Batter,146,146,149,112,Psi_bat >= 0.55 (Engine Approved),CONFIRMED & HARMONIZED
+5,Reeza Hendricks,Batter,90,90,94,57,Psi_bat >= 0.55 (Engine Approved),CONFIRMED & HARMONIZED
+6,Glenn Maxwell,Batter,142,142,152,92,Psi_bat >= 0.55 (Engine Approved),CONFIRMED & HARMONIZED
+7,Ashutosh Sharma,Batter,140,140,149,140,Psi_bat >= 0.55 (Engine Approved),CONFIRMED & HARMONIZED
+8,Rinku Singh,Batter,188,188,202,178,Psi_bat >= 0.55 (Engine Approved),CONFIRMED & HARMONIZED
+9,Suryakumar Yadav,Batter,339,339,350,266,Psi_bat >= 0.55 (Engine Approved),CONFIRMED & HARMONIZED
+10,Shreyas Iyer,Batter,181,181,186,136,Psi_bat >= 0.55 (Engine Approved),CONFIRMED & HARMONIZED
+1,Jasprit Bumrah,Bowler,763,763,786,480,Lambda_bowl >= 0.50 (Engine Approved),CONFIRMED & HARMONIZED
+2,Sikandar Raza,Bowler,328,328,335,199,Lambda_bowl >= 0.50 (Engine Approved),CONFIRMED & HARMONIZED
+3,Haris Rauf,Bowler,505,505,529,312,Lambda_bowl >= 0.50 (Engine Approved),CONFIRMED & HARMONIZED
+4,George Dockrell,Bowler,76,76,78,44,Lambda_bowl >= 0.50 (Engine Approved),CONFIRMED & HARMONIZED
+5,Imad Wasim,Bowler,130,130,134,93,Lambda_bowl >= 0.50 (Engine Approved),CONFIRMED & HARMONIZED
+6,Salman Mirza,Bowler,102,102,105,49,Lambda_bowl >= 0.50 (Engine Approved),CONFIRMED & HARMONIZED
+7,Matheesha Pathirana,Bowler,464,464,522,279,Lambda_bowl >= 0.50 (Engine Approved),CONFIRMED & HARMONIZED
+8,Sufiyan Muqeem,Bowler,114,114,118,65,Lambda_bowl >= 0.50 (Engine Approved),CONFIRMED & HARMONIZED
+9,Hasan Mahmud,Bowler,148,148,150,77,Lambda_bowl >= 0.50 (Engine Approved),CONFIRMED & HARMONIZED
+10,Saim Ayub,Bowler,272,272,281,165,Lambda_bowl >= 0.50 (Engine Approved),CONFIRMED & HARMONIZED

@@ -1,0 +1,1001 @@
+{
+  "name": "RR_Auction_Intelligence_2027",
+  "compatibilityLevel": 1567,
+  "model": {
+    "culture": "en-US",
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "_Measures",
+        "columns": [
+          {
+            "name": "RowKey",
+            "dataType": "int64",
+            "isHidden": true
+          }
+        ],
+        "partitions": [
+          {
+            "name": "_Measures-Partition",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "let\n    Source = #table({\"RowKey\"}, {{1}})\nin\n    Source"
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Total Deliveries Faced",
+            "expression": "CALCULATE(\n    COUNTROWS(FactDeliveryPressure),\n    FactDeliveryPressure[IsLegalBatting] = 1\n)",
+            "displayFolder": "1. VOLUME & BALL COUNT MEASURES",
+            "description": ""
+          },
+          {
+            "name": "Total Deliveries Bowled",
+            "expression": "CALCULATE(\n    COUNTROWS(FactDeliveryPressure),\n    FactDeliveryPressure[IsLegalBowling] = 1,\n    USERELATIONSHIP(DimPlayer[PlayerID], FactDeliveryPressure[BowlerID])\n)",
+            "displayFolder": "1. VOLUME & BALL COUNT MEASURES",
+            "description": ""
+          },
+          {
+            "name": "Pressure Deliveries Faced",
+            "expression": "CALCULATE(\n    [Total Deliveries Faced],\n    FactDeliveryPressure[IsBatPressure] = 1\n)",
+            "displayFolder": "1. VOLUME & BALL COUNT MEASURES",
+            "description": ""
+          },
+          {
+            "name": "Leverage Deliveries Bowled",
+            "expression": "CALCULATE(\n    [Total Deliveries Bowled],\n    FactDeliveryPressure[IsBowlLeverage] = 1\n)",
+            "displayFolder": "1. VOLUME & BALL COUNT MEASURES",
+            "description": ""
+          },
+          {
+            "name": "Normal Deliveries Faced",
+            "expression": "CALCULATE(\n    [Total Deliveries Faced],\n    FactDeliveryPressure[IsBatPressure] = 0\n)",
+            "displayFolder": "1. VOLUME & BALL COUNT MEASURES",
+            "description": ""
+          },
+          {
+            "name": "Normal Deliveries Bowled",
+            "expression": "CALCULATE(\n    [Total Deliveries Bowled],\n    FactDeliveryPressure[IsBowlLeverage] = 0\n)",
+            "displayFolder": "1. VOLUME & BALL COUNT MEASURES",
+            "description": ""
+          },
+          {
+            "name": "Pressure Exposure Share Bat %",
+            "expression": "DIVIDE(\n    [Pressure Deliveries Faced],\n    [Total Deliveries Faced],\n    BLANK()\n)",
+            "displayFolder": "1. VOLUME & BALL COUNT MEASURES",
+            "description": ""
+          },
+          {
+            "name": "Leverage Exposure Share Bowl %",
+            "expression": "DIVIDE(\n    [Leverage Deliveries Bowled],\n    [Total Deliveries Bowled],\n    BLANK()\n)",
+            "displayFolder": "2. RUNS & DISMISSAL AGGREGATIONS",
+            "description": ""
+          },
+          {
+            "name": "Total Runs Scored",
+            "expression": "CALCULATE(\n    SUM(FactDeliveryPressure[RunsBat]),\n    FactDeliveryPressure[IsLegalBatting] = 1\n)",
+            "displayFolder": "2. RUNS & DISMISSAL AGGREGATIONS",
+            "description": ""
+          },
+          {
+            "name": "Pressure Runs Scored",
+            "expression": "CALCULATE(\n    SUM(FactDeliveryPressure[RunsBat]),\n    FactDeliveryPressure[IsBatPressure] = 1,\n    FactDeliveryPressure[IsLegalBatting] = 1\n)",
+            "displayFolder": "2. RUNS & DISMISSAL AGGREGATIONS",
+            "description": ""
+          },
+          {
+            "name": "Normal Runs Scored",
+            "expression": "CALCULATE(\n    SUM(FactDeliveryPressure[RunsBat]),\n    FactDeliveryPressure[IsBatPressure] = 0,\n    FactDeliveryPressure[IsLegalBatting] = 1\n)",
+            "displayFolder": "2. RUNS & DISMISSAL AGGREGATIONS",
+            "description": ""
+          },
+          {
+            "name": "Total Bowler Runs Conceded",
+            "expression": "CALCULATE(\n    SUM(FactDeliveryPressure[BowlerRunsConceded]),\n    USERELATIONSHIP(DimPlayer[PlayerID], FactDeliveryPressure[BowlerID])\n)",
+            "displayFolder": "2. RUNS & DISMISSAL AGGREGATIONS",
+            "description": ""
+          },
+          {
+            "name": "Leverage Runs Conceded",
+            "expression": "CALCULATE(\n    SUM(FactDeliveryPressure[BowlerRunsConceded]),\n    FactDeliveryPressure[IsBowlLeverage] = 1,\n    USERELATIONSHIP(DimPlayer[PlayerID], FactDeliveryPressure[BowlerID])\n)",
+            "displayFolder": "2. RUNS & DISMISSAL AGGREGATIONS",
+            "description": ""
+          },
+          {
+            "name": "Normal Runs Conceded",
+            "expression": "CALCULATE(\n    SUM(FactDeliveryPressure[BowlerRunsConceded]),\n    FactDeliveryPressure[IsBowlLeverage] = 0,\n    USERELATIONSHIP(DimPlayer[PlayerID], FactDeliveryPressure[BowlerID])\n)",
+            "displayFolder": "2. RUNS & DISMISSAL AGGREGATIONS",
+            "description": ""
+          },
+          {
+            "name": "Pressure Dismissals",
+            "expression": "CALCULATE(\n    SUM(FactDeliveryPressure[IsWicket]),\n    FactDeliveryPressure[IsBatPressure] = 1,\n    FactDeliveryPressure[IsLegalBatting] = 1\n)",
+            "displayFolder": "2. RUNS & DISMISSAL AGGREGATIONS",
+            "description": ""
+          },
+          {
+            "name": "Leverage Wickets Taken",
+            "expression": "CALCULATE(\n    SUM(FactDeliveryPressure[IsBowlerWicket]),\n    FactDeliveryPressure[IsBowlLeverage] = 1,\n    USERELATIONSHIP(DimPlayer[PlayerID], FactDeliveryPressure[BowlerID])\n)",
+            "displayFolder": "3. PERFORMANCE RATES & SCORING VELOCITY",
+            "description": ""
+          },
+          {
+            "name": "Pressure Strike Rate",
+            "expression": "DIVIDE(\n    [Pressure Runs Scored] * 100.0,\n    [Pressure Deliveries Faced],\n    BLANK()\n)",
+            "displayFolder": "3. PERFORMANCE RATES & SCORING VELOCITY",
+            "description": ""
+          },
+          {
+            "name": "Normal Baseline Strike Rate",
+            "expression": "DIVIDE(\n    [Normal Runs Scored] * 100.0,\n    [Normal Deliveries Faced],\n    BLANK()\n)",
+            "displayFolder": "3. PERFORMANCE RATES & SCORING VELOCITY",
+            "description": ""
+          },
+          {
+            "name": "Delta Context Strike Rate",
+            "expression": "[Pressure Strike Rate] - [Normal Baseline Strike Rate]",
+            "displayFolder": "3. PERFORMANCE RATES & SCORING VELOCITY",
+            "description": ""
+          },
+          {
+            "name": "Leverage Economy Rate",
+            "expression": "DIVIDE(\n    [Leverage Runs Conceded] * 6.0,\n    [Leverage Deliveries Bowled],\n    BLANK()\n)",
+            "displayFolder": "3. PERFORMANCE RATES & SCORING VELOCITY",
+            "description": ""
+          },
+          {
+            "name": "Normal Baseline Economy Rate",
+            "expression": "DIVIDE(\n    [Normal Runs Conceded] * 6.0,\n    [Normal Deliveries Bowled],\n    BLANK()\n)",
+            "displayFolder": "3. PERFORMANCE RATES & SCORING VELOCITY",
+            "description": ""
+          },
+          {
+            "name": "Delta Context Economy Rate",
+            "expression": "[Leverage Economy Rate] - [Normal Baseline Economy Rate]",
+            "displayFolder": "4. BOUNDARY & DOT-BALL RATIOS",
+            "description": ""
+          },
+          {
+            "name": "Pressure Boundaries Hit",
+            "expression": "CALCULATE(\n    SUM(FactDeliveryPressure[IsFour]) + SUM(FactDeliveryPressure[IsSix]),\n    FactDeliveryPressure[IsBatPressure] = 1,\n    FactDeliveryPressure[IsLegalBatting] = 1\n)",
+            "displayFolder": "4. BOUNDARY & DOT-BALL RATIOS",
+            "description": ""
+          },
+          {
+            "name": "Pressure Boundary %",
+            "expression": "DIVIDE(\n    [Pressure Boundaries Hit],\n    [Pressure Deliveries Faced],\n    BLANK()\n)",
+            "displayFolder": "4. BOUNDARY & DOT-BALL RATIOS",
+            "description": ""
+          },
+          {
+            "name": "Pressure Dots Faced",
+            "expression": "CALCULATE(\n    COUNTROWS(FactDeliveryPressure),\n    FactDeliveryPressure[IsBatPressure] = 1,\n    FactDeliveryPressure[RunsBat] = 0,\n    FactDeliveryPressure[IsLegalBatting] = 1\n)",
+            "displayFolder": "4. BOUNDARY & DOT-BALL RATIOS",
+            "description": ""
+          },
+          {
+            "name": "Pressure Dot %",
+            "expression": "DIVIDE(\n    [Pressure Dots Faced],\n    [Pressure Deliveries Faced],\n    BLANK()\n)",
+            "displayFolder": "4. BOUNDARY & DOT-BALL RATIOS",
+            "description": ""
+          },
+          {
+            "name": "Leverage Boundaries Conceded",
+            "expression": "CALCULATE(\n    SUM(FactDeliveryPressure[IsFour]) + SUM(FactDeliveryPressure[IsSix]),\n    FactDeliveryPressure[IsBowlLeverage] = 1,\n    FactDeliveryPressure[IsLegalBowling] = 1,\n    USERELATIONSHIP(DimPlayer[PlayerID], FactDeliveryPressure[BowlerID])\n)",
+            "displayFolder": "4. BOUNDARY & DOT-BALL RATIOS",
+            "description": ""
+          },
+          {
+            "name": "Leverage Conceded Boundary %",
+            "expression": "DIVIDE(\n    [Leverage Boundaries Conceded],\n    [Leverage Deliveries Bowled],\n    BLANK()\n)",
+            "displayFolder": "4. BOUNDARY & DOT-BALL RATIOS",
+            "description": ""
+          },
+          {
+            "name": "Leverage Dots Bowled",
+            "expression": "CALCULATE(\n    COUNTROWS(FactDeliveryPressure),\n    FactDeliveryPressure[IsBowlLeverage] = 1,\n    FactDeliveryPressure[BowlerRunsConceded] = 0,\n    FactDeliveryPressure[IsLegalBowling] = 1,\n    USERELATIONSHIP(DimPlayer[PlayerID], FactDeliveryPressure[BowlerID])\n)",
+            "displayFolder": "4. BOUNDARY & DOT-BALL RATIOS",
+            "description": ""
+          },
+          {
+            "name": "Leverage Dot %",
+            "expression": "DIVIDE(\n    [Leverage Dots Bowled],\n    [Leverage Deliveries Bowled],\n    BLANK()\n)",
+            "displayFolder": "4. BOUNDARY & DOT-BALL RATIOS",
+            "description": ""
+          },
+          {
+            "name": "Leverage Wicket Strike Rate",
+            "expression": "DIVIDE(\n    [Leverage Deliveries Bowled],\n    [Leverage Wickets Taken],\n    BLANK()\n)",
+            "displayFolder": "5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS",
+            "description": ""
+          },
+          {
+            "name": "Bayes Estimate Rate",
+            "expression": "SELECTEDVALUE(FactPlayerPressurePerformance[BayesEstimate])",
+            "displayFolder": "5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS",
+            "description": ""
+          },
+          {
+            "name": "Bayes CI Low",
+            "expression": "SELECTEDVALUE(FactPlayerPressurePerformance[Bayes_CI_Low])",
+            "displayFolder": "5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS",
+            "description": ""
+          },
+          {
+            "name": "Bayes CI High",
+            "expression": "SELECTEDVALUE(FactPlayerPressurePerformance[Bayes_CI_High])",
+            "displayFolder": "5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS",
+            "description": ""
+          },
+          {
+            "name": "Bayes CI Width",
+            "expression": "SELECTEDVALUE(FactPlayerPressurePerformance[Bayes_CI_Width])",
+            "displayFolder": "5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS",
+            "description": ""
+          },
+          {
+            "name": "Bayes Error Margin",
+            "expression": "DIVIDE([Bayes CI Width], 2.0, BLANK())",
+            "displayFolder": "6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES",
+            "description": ""
+          },
+          {
+            "name": "Official CPRI Score",
+            "expression": "SELECTEDVALUE(DimRanking[CPRI])",
+            "displayFolder": "6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES",
+            "description": ""
+          },
+          {
+            "name": "CPRI CI Low",
+            "expression": "SELECTEDVALUE(DimRanking[CPRI_CI_Low])",
+            "displayFolder": "6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES",
+            "description": ""
+          },
+          {
+            "name": "CPRI CI High",
+            "expression": "SELECTEDVALUE(DimRanking[CPRI_CI_High])",
+            "displayFolder": "6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES",
+            "description": ""
+          },
+          {
+            "name": "CPRI Error Bar Length",
+            "expression": "DIVIDE([CPRI CI High] - [CPRI CI Low], 2.0, BLANK())",
+            "displayFolder": "7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE",
+            "description": ""
+          },
+          {
+            "name": "Match Level CV",
+            "expression": "SELECTEDVALUE(FactPlayerPressurePerformance[MatchCV])",
+            "displayFolder": "7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE",
+            "description": ""
+          },
+          {
+            "name": "Match Success Rate %",
+            "expression": "SELECTEDVALUE(FactPlayerPressurePerformance[MatchSuccessRate])",
+            "displayFolder": "7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE",
+            "description": ""
+          },
+          {
+            "name": "Jackknife Worst Case Metric",
+            "expression": "SELECTEDVALUE(FactPlayerPressurePerformance[JackknifeWorstCaseMetric])",
+            "displayFolder": "7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE",
+            "description": ""
+          },
+          {
+            "name": "Jackknife SE",
+            "expression": "SELECTEDVALUE(FactPlayerPressurePerformance[JackknifeSE])",
+            "displayFolder": "7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE",
+            "description": ""
+          },
+          {
+            "name": "Jackknife Degradation Delta",
+            "expression": "ABS([Bayes Estimate Rate] - [Jackknife Worst Case Metric])",
+            "displayFolder": "8. AUCTION EVIDENCE & VALUATION MEASURES",
+            "description": ""
+          },
+          {
+            "name": "Auction Evidence Tier",
+            "expression": "SELECTEDVALUE(DimRanking[OverallEvidenceTier])",
+            "displayFolder": "8. AUCTION EVIDENCE & VALUATION MEASURES",
+            "description": ""
+          },
+          {
+            "name": "Sample Confidence Class",
+            "expression": "SELECTEDVALUE(DimRanking[ConfidenceClass])",
+            "displayFolder": "8. AUCTION EVIDENCE & VALUATION MEASURES",
+            "description": ""
+          },
+          {
+            "name": "Player Official Rank",
+            "expression": "SELECTEDVALUE(DimRanking[OfficialRank])",
+            "displayFolder": "8. AUCTION EVIDENCE & VALUATION MEASURES",
+            "description": ""
+          },
+          {
+            "name": "Auction Purse Multiplier Range",
+            "expression": "SWITCH(\n    [Player Official Rank],\n    1, \"2.5x - 3.0x Baseline\",\n    2, \"2.5x - 3.0x Baseline\",\n    3, \"2.5x - 3.0x Baseline\",\n    4, \"2.2x - 2.5x Baseline\",\n    5, \"1.8x - 2.2x Baseline\",\n    6, \"1.8x - 2.2x Baseline\",\n    7, \"1.8x - 2.2x Baseline\",\n    8, \"1.5x - 1.8x Baseline\",\n    9, \"1.5x - 1.8x Baseline\",\n    10, \"1.2x - 1.5x Baseline\",\n    \"1.0x Baseline\"\n)",
+            "displayFolder": "9. DYNAMIC UI & CARD TITLE FORMATTERS",
+            "description": ""
+          },
+          {
+            "name": "Selected Player Name",
+            "expression": "SELECTEDVALUE(DimPlayer[PlayerName], \"Select a Player\")",
+            "displayFolder": "9. DYNAMIC UI & CARD TITLE FORMATTERS",
+            "description": ""
+          },
+          {
+            "name": "Selected Player Header Text",
+            "expression": "VAR PlayerName = SELECTEDVALUE(DimPlayer[PlayerName], \"League Overview\")\nVAR Disc = SELECTEDVALUE(DimRanking[Discipline], \"\")\nVAR RankNum = SELECTEDVALUE(DimRanking[OfficialRank], 0)\nRETURN\nIF(\n    RankNum > 0,\n    PlayerName & \" (Rank #\" & RankNum & \" \" & Disc & \" | CPRI: \" & FORMAT([Official CPRI Score], \"0.00\") & \")\",\n    PlayerName\n)",
+            "displayFolder": "9. DYNAMIC UI & CARD TITLE FORMATTERS",
+            "description": ""
+          },
+          {
+            "name": "Linguistic Governance Status",
+            "expression": "SWITCH(\n    [Player Official Rank],\n    1, \"Certified Top 10 Contender (Leading Tier)\",\n    2, \"Certified Top 10 Contender (Elite Core)\",\n    3, \"Certified Top 10 Asset\",\n    4, \"Certified Top 10 Asset\",\n    5, \"Certified Top 10 Asset\",\n    \"Certified Tactical Asset\"\n)",
+            "displayFolder": "9. DYNAMIC UI & CARD TITLE FORMATTERS",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "DimCompetition",
+        "columns": [
+          {
+            "name": "CompID",
+            "dataType": "int64",
+            "isKey": true
+          },
+          {
+            "name": "CompName",
+            "dataType": "string"
+          },
+          {
+            "name": "MatchFormat",
+            "dataType": "string"
+          },
+          {
+            "name": "Season",
+            "dataType": "int64"
+          },
+          {
+            "name": "CompetitionType",
+            "dataType": "string"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "DimCompetition-Partition",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "let\n    Source = Csv.Document(File.Contents(\"D:/RR_PRESSURE_INDEX_2027/dashboard/data/dim_competition.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.None]),\n    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true])\nin\n    Promoted"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DimContext",
+        "columns": [
+          {
+            "name": "ContextID",
+            "dataType": "int64",
+            "isKey": true
+          },
+          {
+            "name": "ContextName",
+            "dataType": "string"
+          },
+          {
+            "name": "Innings",
+            "dataType": "int64"
+          },
+          {
+            "name": "PhaseName",
+            "dataType": "string"
+          },
+          {
+            "name": "IsBatPressure",
+            "dataType": "int64"
+          },
+          {
+            "name": "IsBowlLeverage",
+            "dataType": "int64"
+          },
+          {
+            "name": "Description",
+            "dataType": "string"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "DimContext-Partition",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "let\n    Source = Csv.Document(File.Contents(\"D:/RR_PRESSURE_INDEX_2027/dashboard/data/dim_context.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.None]),\n    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true])\nin\n    Promoted"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DimDate",
+        "columns": [
+          {
+            "name": "Date",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "DateKey",
+            "dataType": "int64",
+            "isKey": true
+          },
+          {
+            "name": "Year",
+            "dataType": "int64"
+          },
+          {
+            "name": "Month",
+            "dataType": "int64"
+          },
+          {
+            "name": "MonthName",
+            "dataType": "string"
+          },
+          {
+            "name": "Quarter",
+            "dataType": "int64"
+          },
+          {
+            "name": "DayOfWeek",
+            "dataType": "int64"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "DimDate-Partition",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "let\n    Source = Csv.Document(File.Contents(\"D:/RR_PRESSURE_INDEX_2027/dashboard/data/dim_date.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.None]),\n    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true])\nin\n    Promoted"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DimMatch",
+        "columns": [
+          {
+            "name": "MatchID",
+            "dataType": "int64",
+            "isKey": true
+          },
+          {
+            "name": "CompID",
+            "dataType": "int64"
+          },
+          {
+            "name": "DateKey",
+            "dataType": "int64"
+          },
+          {
+            "name": "MatchDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "Stage",
+            "dataType": "string"
+          },
+          {
+            "name": "IsKnockOut",
+            "dataType": "int64"
+          },
+          {
+            "name": "HomeTeamID",
+            "dataType": "int64"
+          },
+          {
+            "name": "AwayTeamID",
+            "dataType": "int64"
+          },
+          {
+            "name": "WinTeamID",
+            "dataType": "int64"
+          },
+          {
+            "name": "Result",
+            "dataType": "string"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "DimMatch-Partition",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "let\n    Source = Csv.Document(File.Contents(\"D:/RR_PRESSURE_INDEX_2027/dashboard/data/dim_match.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.None]),\n    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true])\nin\n    Promoted"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DimPlayer",
+        "columns": [
+          {
+            "name": "PlayerID",
+            "dataType": "int64",
+            "isKey": true
+          },
+          {
+            "name": "PlayerName",
+            "dataType": "string"
+          },
+          {
+            "name": "PrimaryDiscipline",
+            "dataType": "string"
+          },
+          {
+            "name": "IsDualDiscipline",
+            "dataType": "boolean"
+          },
+          {
+            "name": "BattingConfidenceTier",
+            "dataType": "string"
+          },
+          {
+            "name": "BowlingConfidenceTier",
+            "dataType": "string"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "DimPlayer-Partition",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "let\n    Source = Csv.Document(File.Contents(\"D:/RR_PRESSURE_INDEX_2027/dashboard/data/dim_player.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.None]),\n    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true])\nin\n    Promoted"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DimRanking",
+        "columns": [
+          {
+            "name": "RankingID",
+            "dataType": "int64",
+            "isKey": true
+          },
+          {
+            "name": "PlayerID",
+            "dataType": "int64"
+          },
+          {
+            "name": "PlayerName",
+            "dataType": "string"
+          },
+          {
+            "name": "Discipline",
+            "dataType": "string"
+          },
+          {
+            "name": "OfficialRank",
+            "dataType": "int64"
+          },
+          {
+            "name": "CPRI",
+            "dataType": "double"
+          },
+          {
+            "name": "CPRI_CI_Low",
+            "dataType": "double"
+          },
+          {
+            "name": "CPRI_CI_High",
+            "dataType": "double"
+          },
+          {
+            "name": "ConfidenceClass",
+            "dataType": "string"
+          },
+          {
+            "name": "OverallEvidenceTier",
+            "dataType": "string"
+          },
+          {
+            "name": "RankingExplanation",
+            "dataType": "string"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "DimRanking-Partition",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "let\n    Source = Csv.Document(File.Contents(\"D:/RR_PRESSURE_INDEX_2027/dashboard/data/dim_ranking.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.None]),\n    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true])\nin\n    Promoted"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DimTeam",
+        "columns": [
+          {
+            "name": "TeamID",
+            "dataType": "int64",
+            "isKey": true
+          },
+          {
+            "name": "TeamName",
+            "dataType": "string"
+          },
+          {
+            "name": "TeamCode",
+            "dataType": "string"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "DimTeam-Partition",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "let\n    Source = Csv.Document(File.Contents(\"D:/RR_PRESSURE_INDEX_2027/dashboard/data/dim_team.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.None]),\n    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true])\nin\n    Promoted"
+            }
+          }
+        ]
+      },
+      {
+        "name": "FactDeliveryPressure",
+        "columns": [
+          {
+            "name": "DeliveryID",
+            "dataType": "int64",
+            "isKey": true
+          },
+          {
+            "name": "MatchID",
+            "dataType": "int64"
+          },
+          {
+            "name": "Innings",
+            "dataType": "int64"
+          },
+          {
+            "name": "OverID",
+            "dataType": "int64"
+          },
+          {
+            "name": "StrikerID",
+            "dataType": "int64"
+          },
+          {
+            "name": "BowlerID",
+            "dataType": "int64"
+          },
+          {
+            "name": "BattingTeamID",
+            "dataType": "int64"
+          },
+          {
+            "name": "BowlingTeamID",
+            "dataType": "int64"
+          },
+          {
+            "name": "ContextID",
+            "dataType": "int64"
+          },
+          {
+            "name": "RunsBat",
+            "dataType": "int64"
+          },
+          {
+            "name": "BowlerRunsConceded",
+            "dataType": "int64"
+          },
+          {
+            "name": "IsFour",
+            "dataType": "int64"
+          },
+          {
+            "name": "IsSix",
+            "dataType": "int64"
+          },
+          {
+            "name": "IsWicket",
+            "dataType": "int64"
+          },
+          {
+            "name": "IsBowlerWicket",
+            "dataType": "int64"
+          },
+          {
+            "name": "IsLegalBatting",
+            "dataType": "int64"
+          },
+          {
+            "name": "IsLegalBowling",
+            "dataType": "int64"
+          },
+          {
+            "name": "IsBatPressure",
+            "dataType": "int64"
+          },
+          {
+            "name": "IsBowlLeverage",
+            "dataType": "int64"
+          },
+          {
+            "name": "PsiBat",
+            "dataType": "double"
+          },
+          {
+            "name": "LambdaBowl",
+            "dataType": "double"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "FactDeliveryPressure-Partition",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "let\n    Source = Csv.Document(File.Contents(\"D:/RR_PRESSURE_INDEX_2027/dashboard/data/fact_delivery_pressure.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.None]),\n    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true])\nin\n    Promoted"
+            }
+          }
+        ]
+      },
+      {
+        "name": "FactPlayerMatchPerformance",
+        "columns": [
+          {
+            "name": "PlayerMatchID",
+            "dataType": "int64",
+            "isKey": true
+          },
+          {
+            "name": "MatchID",
+            "dataType": "int64"
+          },
+          {
+            "name": "PlayerID",
+            "dataType": "int64"
+          },
+          {
+            "name": "TeamID",
+            "dataType": "int64"
+          },
+          {
+            "name": "Discipline",
+            "dataType": "string"
+          },
+          {
+            "name": "IsPressureState",
+            "dataType": "int64"
+          },
+          {
+            "name": "Balls",
+            "dataType": "int64"
+          },
+          {
+            "name": "Runs",
+            "dataType": "int64"
+          },
+          {
+            "name": "Outs",
+            "dataType": "int64"
+          },
+          {
+            "name": "Boundaries",
+            "dataType": "int64"
+          },
+          {
+            "name": "Dots",
+            "dataType": "int64"
+          },
+          {
+            "name": "RateMetric",
+            "dataType": "double"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "FactPlayerMatchPerformance-Partition",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "let\n    Source = Csv.Document(File.Contents(\"D:/RR_PRESSURE_INDEX_2027/dashboard/data/fact_player_match_performance.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.None]),\n    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true])\nin\n    Promoted"
+            }
+          }
+        ]
+      },
+      {
+        "name": "FactPlayerPressurePerformance",
+        "columns": [
+          {
+            "name": "PlayerPressurePerfID",
+            "dataType": "int64",
+            "isKey": true
+          },
+          {
+            "name": "PlayerID",
+            "dataType": "int64"
+          },
+          {
+            "name": "Discipline",
+            "dataType": "string"
+          },
+          {
+            "name": "PressureBalls",
+            "dataType": "double"
+          },
+          {
+            "name": "NormalBalls",
+            "dataType": "int64"
+          },
+          {
+            "name": "RawPressureMetric",
+            "dataType": "double"
+          },
+          {
+            "name": "NormalBaselineMetric",
+            "dataType": "double"
+          },
+          {
+            "name": "DeltaContextMetric",
+            "dataType": "double"
+          },
+          {
+            "name": "BayesEstimate",
+            "dataType": "double"
+          },
+          {
+            "name": "Bayes_CI_Low",
+            "dataType": "double"
+          },
+          {
+            "name": "Bayes_CI_High",
+            "dataType": "double"
+          },
+          {
+            "name": "Bayes_CI_Width",
+            "dataType": "double"
+          },
+          {
+            "name": "BoundaryPct",
+            "dataType": "double"
+          },
+          {
+            "name": "DotPct",
+            "dataType": "double"
+          },
+          {
+            "name": "DismissalOrWktRate",
+            "dataType": "double"
+          },
+          {
+            "name": "MatchCV",
+            "dataType": "double"
+          },
+          {
+            "name": "MatchSuccessRate",
+            "dataType": "double"
+          },
+          {
+            "name": "JackknifeWorstCaseMetric",
+            "dataType": "double"
+          },
+          {
+            "name": "JackknifeSE",
+            "dataType": "double"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "FactPlayerPressurePerformance-Partition",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "let\n    Source = Csv.Document(File.Contents(\"D:/RR_PRESSURE_INDEX_2027/dashboard/data/fact_player_pressure_performance.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.None]),\n    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true])\nin\n    Promoted"
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "name": "Rel_Match_Delivery",
+        "fromTable": "FactDeliveryPressure",
+        "fromColumn": "MatchID",
+        "toTable": "DimMatch",
+        "toColumn": "MatchID",
+        "isActive": true
+      },
+      {
+        "name": "Rel_Striker_Delivery_Active",
+        "fromTable": "FactDeliveryPressure",
+        "fromColumn": "StrikerID",
+        "toTable": "DimPlayer",
+        "toColumn": "PlayerID",
+        "isActive": true
+      },
+      {
+        "name": "Rel_Bowler_Delivery_InactiveRolePlaying",
+        "fromTable": "FactDeliveryPressure",
+        "fromColumn": "BowlerID",
+        "toTable": "DimPlayer",
+        "toColumn": "PlayerID",
+        "isActive": false
+      },
+      {
+        "name": "Rel_Context_Delivery",
+        "fromTable": "FactDeliveryPressure",
+        "fromColumn": "ContextID",
+        "toTable": "DimContext",
+        "toColumn": "ContextID",
+        "isActive": true
+      },
+      {
+        "name": "Rel_Comp_Match",
+        "fromTable": "DimMatch",
+        "fromColumn": "CompID",
+        "toTable": "DimCompetition",
+        "toColumn": "CompID",
+        "isActive": true
+      },
+      {
+        "name": "Rel_Date_Match",
+        "fromTable": "DimMatch",
+        "fromColumn": "DateKey",
+        "toTable": "DimDate",
+        "toColumn": "DateKey",
+        "isActive": true
+      },
+      {
+        "name": "Rel_Player_PressurePerf",
+        "fromTable": "FactPlayerPressurePerformance",
+        "fromColumn": "PlayerID",
+        "toTable": "DimPlayer",
+        "toColumn": "PlayerID",
+        "isActive": true
+      },
+      {
+        "name": "Rel_Player_MatchPerf",
+        "fromTable": "FactPlayerMatchPerformance",
+        "fromColumn": "PlayerID",
+        "toTable": "DimPlayer",
+        "toColumn": "PlayerID",
+        "isActive": true
+      },
+      {
+        "name": "Rel_Match_MatchPerf",
+        "fromTable": "FactPlayerMatchPerformance",
+        "fromColumn": "MatchID",
+        "toTable": "DimMatch",
+        "toColumn": "MatchID",
+        "isActive": true
+      },
+      {
+        "name": "Rel_Player_Ranking",
+        "fromTable": "DimRanking",
+        "fromColumn": "PlayerID",
+        "toTable": "DimPlayer",
+        "toColumn": "PlayerID",
+        "isActive": true
+      }
+    ],
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"_Measures\", \"DimPlayer\", \"DimMatch\", \"DimCompetition\", \"DimTeam\", \"DimContext\", \"DimDate\", \"DimRanking\", \"FactDeliveryPressure\", \"FactPlayerMatchPerformance\", \"FactPlayerPressurePerformance\"]"
+      }
+    ]
+  }
+}

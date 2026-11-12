@@ -1,0 +1,9 @@
+Population_Category,Certified_Source_Count,Dashboard_Observed_Count,Variance,Eligibility_Rule,Audit_Verdict
+Master Registered Cricketers (DimPlayer),891,891,0,"All senior male cricketers registered in senior match squads (IPL + T20I, 2022-2026)",100% Reconciled
+Player-Discipline Analytical Profiles (FactPlayerPressurePerformance),1235,1235,0,Distinct player-discipline pairs (676 Batting + 559 Bowling profiles),"100% Reconciled. In Phase 04 narrative, 891 was mistakenly reported as profile count instead of unique player count."
+Active Cricketers with Balls Faced or Bowled,856,856,0,Players with >=1 legal ball faced or bowled in senior matches,100% Reconciled. Exactly 35 squad players were designated DNB/fielding substitutes.
+Dual-Discipline Cricketers (All-Rounders),379,379,0,Cricketers with both active batting and bowling records,"100% Reconciled (856 + 379 = 1,235 total profiles)."
+Phase 03 Official Batting Cohort,117,117,0,Batters facing >=50 pressure deliveries (Psi >= 0.60) in Senior T20,100% Reconciled in full_cohort_batters_ranking.csv.
+Phase 04 Dashboard Batting KPI ('92 Batters'),117,92,-25,Uncalibrated manual placeholder in Phase 04 KPI header. Actual count for N>=50 is 117; for N>=100 is 45.,Resolved: Corrected dashboard KPI card to reflect certified count of 117.
+Phase 03 Official Bowling Cohort,250,250,0,Bowlers bowling >=60 leverage deliveries (Lambda >= 0.60) in Senior T20,100% Reconciled in full_cohort_bowlers_ranking.csv.
+Phase 04 Dashboard Bowling KPI ('167 Bowlers'),250,167,-83,Uncalibrated manual placeholder in Phase 04 KPI header. Actual count for N>=60 is 250; for N>=120 is 176.,Resolved: Corrected dashboard KPI card to reflect certified count of 250.

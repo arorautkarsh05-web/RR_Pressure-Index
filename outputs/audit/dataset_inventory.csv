@@ -1,0 +1,7 @@
+filename,file_size_bytes,file_size_mb,memory_usage_mb,row_count,column_count,duplicate_rows,primary_key_candidate,min_date,max_date,business_description
+competitions.csv,7624,0.01,0.01,141,4,0,comp_id,N/A,N/A,"Tournament registry containing competition metadata, match formats, and season labels."
+teams.csv,6922,0.01,0.01,353,3,0,"(comp_id, team_id)",N/A,N/A,Competition-to-team registry mapping participating franchise and international teams.
+matches.csv,123864,0.12,0.22,883,22,0,match_id,2022-01-22,2026-11-01,"Match metadata table recording venue, date, toss, stage, targets, and match outcomes."
+playing_eleven.csv,966287,0.92,3.21,28381,9,0,"(match_id, player_id)",N/A,N/A,"Lineup participation table tracking announced XIs, batting order, and impact player subs."
+competition_team_player_mapping.csv,462969,0.44,0.64,6413,6,0,"(comp_id, team_id, player_id)",N/A,N/A,Tournament squad roster mapping player IDs to team and competition identifiers.
+ball_by_ball.csv,41071609,39.17,69.49,200999,33,0,"(match_id, innings, innings_ball_num)",2022-01-23 00:00:00 UTC,2026-11-01 16:50:46 UTC,"Granular delivery-level event log recording runs, extras, wickets, bowler/batter actions, and trajectories."

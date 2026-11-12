@@ -1,0 +1,6 @@
+Validation_Component,Target_Path,Observed_Status,Pass_Fail,Audit_Notes
+Root PBIP Pointer,D:\RR_PRESSURE_INDEX_2027\dashboard\RR_Auction_Intelligence.pbip,Valid JSON pointing to RR_Auction_Intelligence.Report,PASS,Power BI Desktop v2.130+ project compatibility confirmed.
+Report Definition (definition.pbir),D:\RR_PRESSURE_INDEX_2027\dashboard\RR_Auction_Intelligence.Report\definition.pbir,Valid JSON referencing ../RR_Auction_Intelligence.Dataset,PASS,Resolves local semantic model cleanly.
+Dataset Definition (definition.pbism),D:\RR_PRESSURE_INDEX_2027\dashboard\RR_Auction_Intelligence.Dataset\definition.pbism,Valid JSON version 1.0,PASS,Standard Power BI semantic model manifest.
+Tabular Object Model (model.bim),D:\RR_PRESSURE_INDEX_2027\dashboard\RR_Auction_Intelligence.Dataset\model.bim,"10 tables, 52 DAX measures, 10 relationships aligned with exact CSV column schemas",PASS,100% column name and data type parity against CSV files achieved.
+Power BI Theme (theme.json),D:\RR_PRESSURE_INDEX_2027\dashboard\theme.json,"Rajasthan Royals theme (#0B132B, #E81B84, #004BA0, #FFB81C) verified",PASS,Valid visual styles and color palette.

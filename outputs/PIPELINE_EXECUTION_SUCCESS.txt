@@ -1,0 +1,7 @@
+RR PRESSURE INDEX 2027 — PIPELINE CERTIFICATION
+Timestamp: 2026-11-12 18:43:26
+Status: ALL CRITICAL GATES PASSED (100% REPRODUCIBLE)
+Matches Audited: 883 Raw | 853 Senior | 837 Feature Store | 813 Decisive
+Deliveries: 194,014 Total | 186,540 Batting Legal | 7,474 Wides
+Top Batter: Naman Dhir (74.41 CPRI [64.48, 84.34])
+Top Bowler: Jasprit Bumrah (76.83 CPRI [70.24, 83.42])

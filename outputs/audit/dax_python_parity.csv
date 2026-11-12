@@ -1,0 +1,417 @@
+Slice_Context,DAX_Measure_Name,Display_Folder,Python_Calculated_Value,DAX_Expected_Value,Absolute_Variance,Parity_Status,USERELATIONSHIP_Status,Audit_Notes
+Unfiltered (All Senior T20),Total Deliveries Faced,1. VOLUME & BALL COUNT MEASURES,186540,186540,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Unfiltered (All Senior T20),Total Deliveries Bowled,1. VOLUME & BALL COUNT MEASURES,185715,185715,0.0,100% Parity,Active,Exact match across filter context.
+Unfiltered (All Senior T20),Pressure Deliveries Faced,1. VOLUME & BALL COUNT MEASURES,18915,18915,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Unfiltered (All Senior T20),Leverage Deliveries Bowled,1. VOLUME & BALL COUNT MEASURES,70536,70536,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Unfiltered (All Senior T20),Normal Deliveries Faced,1. VOLUME & BALL COUNT MEASURES,167625,167625,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Unfiltered (All Senior T20),Normal Deliveries Bowled,1. VOLUME & BALL COUNT MEASURES,115179,115179,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Unfiltered (All Senior T20),Pressure Exposure Share Bat %,1. VOLUME & BALL COUNT MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Unfiltered (All Senior T20),Leverage Exposure Share Bowl %,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Unfiltered (All Senior T20),Total Runs Scored,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Unfiltered (All Senior T20),Pressure Runs Scored,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Unfiltered (All Senior T20),Normal Runs Scored,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Unfiltered (All Senior T20),Total Bowler Runs Conceded,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+Unfiltered (All Senior T20),Leverage Runs Conceded,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+Unfiltered (All Senior T20),Normal Runs Conceded,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+Unfiltered (All Senior T20),Pressure Dismissals,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Unfiltered (All Senior T20),Leverage Wickets Taken,3. PERFORMANCE RATES & SCORING VELOCITY,4075,4075,0.0,100% Parity,Active,Exact match across filter context.
+Unfiltered (All Senior T20),Pressure Strike Rate,3. PERFORMANCE RATES & SCORING VELOCITY,149.61,149.61,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Unfiltered (All Senior T20),Normal Baseline Strike Rate,3. PERFORMANCE RATES & SCORING VELOCITY,138.89,138.89,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Unfiltered (All Senior T20),Delta Context Strike Rate,3. PERFORMANCE RATES & SCORING VELOCITY,10.71,10.71,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Unfiltered (All Senior T20),Leverage Economy Rate,3. PERFORMANCE RATES & SCORING VELOCITY,9.29,9.29,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Unfiltered (All Senior T20),Normal Baseline Economy Rate,3. PERFORMANCE RATES & SCORING VELOCITY,8.35,8.35,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Unfiltered (All Senior T20),Delta Context Economy Rate,4. BOUNDARY & DOT-BALL RATIOS,0.95,0.95,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Unfiltered (All Senior T20),Pressure Boundaries Hit,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Unfiltered (All Senior T20),Pressure Boundary %,4. BOUNDARY & DOT-BALL RATIOS,19.88,19.88,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Unfiltered (All Senior T20),Pressure Dots Faced,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Unfiltered (All Senior T20),Pressure Dot %,4. BOUNDARY & DOT-BALL RATIOS,40.17,40.17,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Unfiltered (All Senior T20),Leverage Boundaries Conceded,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+Unfiltered (All Senior T20),Leverage Conceded Boundary %,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Unfiltered (All Senior T20),Leverage Dots Bowled,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+Unfiltered (All Senior T20),Leverage Dot %,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Unfiltered (All Senior T20),Leverage Wicket Strike Rate,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Unfiltered (All Senior T20),Bayes Estimate Rate,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Unfiltered (All Senior T20),Bayes CI Low,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Unfiltered (All Senior T20),Bayes CI High,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Unfiltered (All Senior T20),Bayes CI Width,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Unfiltered (All Senior T20),Bayes Error Margin,6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Unfiltered (All Senior T20),Official CPRI Score,6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Unfiltered (All Senior T20),CPRI CI Low,6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Unfiltered (All Senior T20),CPRI CI High,6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Unfiltered (All Senior T20),CPRI Error Bar Length,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Unfiltered (All Senior T20),Match Level CV,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Unfiltered (All Senior T20),Match Success Rate %,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Unfiltered (All Senior T20),Jackknife Worst Case Metric,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Unfiltered (All Senior T20),Jackknife SE,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Unfiltered (All Senior T20),Jackknife Degradation Delta,8. AUCTION EVIDENCE & VALUATION MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Unfiltered (All Senior T20),Auction Evidence Tier,8. AUCTION EVIDENCE & VALUATION MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Unfiltered (All Senior T20),Sample Confidence Class,8. AUCTION EVIDENCE & VALUATION MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Unfiltered (All Senior T20),Player Official Rank,8. AUCTION EVIDENCE & VALUATION MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Unfiltered (All Senior T20),Auction Purse Multiplier Range,9. DYNAMIC UI & CARD TITLE FORMATTERS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Unfiltered (All Senior T20),Selected Player Name,9. DYNAMIC UI & CARD TITLE FORMATTERS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Unfiltered (All Senior T20),Selected Player Header Text,9. DYNAMIC UI & CARD TITLE FORMATTERS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Unfiltered (All Senior T20),Linguistic Governance Status,9. DYNAMIC UI & CARD TITLE FORMATTERS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+IPL Only,Total Deliveries Faced,1. VOLUME & BALL COUNT MEASURES,84135,84135,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+IPL Only,Total Deliveries Bowled,1. VOLUME & BALL COUNT MEASURES,83755,83755,0.0,100% Parity,Active,Exact match across filter context.
+IPL Only,Pressure Deliveries Faced,1. VOLUME & BALL COUNT MEASURES,10283,10283,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+IPL Only,Leverage Deliveries Bowled,1. VOLUME & BALL COUNT MEASURES,31382,31382,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+IPL Only,Normal Deliveries Faced,1. VOLUME & BALL COUNT MEASURES,73852,73852,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+IPL Only,Normal Deliveries Bowled,1. VOLUME & BALL COUNT MEASURES,52373,52373,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+IPL Only,Pressure Exposure Share Bat %,1. VOLUME & BALL COUNT MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+IPL Only,Leverage Exposure Share Bowl %,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+IPL Only,Total Runs Scored,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+IPL Only,Pressure Runs Scored,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+IPL Only,Normal Runs Scored,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+IPL Only,Total Bowler Runs Conceded,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+IPL Only,Leverage Runs Conceded,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+IPL Only,Normal Runs Conceded,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+IPL Only,Pressure Dismissals,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+IPL Only,Leverage Wickets Taken,3. PERFORMANCE RATES & SCORING VELOCITY,1728,1728,0.0,100% Parity,Active,Exact match across filter context.
+IPL Only,Pressure Strike Rate,3. PERFORMANCE RATES & SCORING VELOCITY,155.88,155.88,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+IPL Only,Normal Baseline Strike Rate,3. PERFORMANCE RATES & SCORING VELOCITY,145.65,145.65,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+IPL Only,Delta Context Strike Rate,3. PERFORMANCE RATES & SCORING VELOCITY,10.23,10.23,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+IPL Only,Leverage Economy Rate,3. PERFORMANCE RATES & SCORING VELOCITY,9.7,9.7,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+IPL Only,Normal Baseline Economy Rate,3. PERFORMANCE RATES & SCORING VELOCITY,8.8,8.8,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+IPL Only,Delta Context Economy Rate,4. BOUNDARY & DOT-BALL RATIOS,0.9,0.9,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+IPL Only,Pressure Boundaries Hit,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+IPL Only,Pressure Boundary %,4. BOUNDARY & DOT-BALL RATIOS,21.0,21.0,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+IPL Only,Pressure Dots Faced,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+IPL Only,Pressure Dot %,4. BOUNDARY & DOT-BALL RATIOS,38.17,38.17,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+IPL Only,Leverage Boundaries Conceded,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+IPL Only,Leverage Conceded Boundary %,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+IPL Only,Leverage Dots Bowled,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+IPL Only,Leverage Dot %,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+IPL Only,Leverage Wicket Strike Rate,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+IPL Only,Bayes Estimate Rate,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+IPL Only,Bayes CI Low,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+IPL Only,Bayes CI High,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+IPL Only,Bayes CI Width,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+IPL Only,Bayes Error Margin,6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+IPL Only,Official CPRI Score,6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+IPL Only,CPRI CI Low,6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+IPL Only,CPRI CI High,6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+IPL Only,CPRI Error Bar Length,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+IPL Only,Match Level CV,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+IPL Only,Match Success Rate %,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+IPL Only,Jackknife Worst Case Metric,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+IPL Only,Jackknife SE,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+IPL Only,Jackknife Degradation Delta,8. AUCTION EVIDENCE & VALUATION MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+IPL Only,Auction Evidence Tier,8. AUCTION EVIDENCE & VALUATION MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+IPL Only,Sample Confidence Class,8. AUCTION EVIDENCE & VALUATION MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+IPL Only,Player Official Rank,8. AUCTION EVIDENCE & VALUATION MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+IPL Only,Auction Purse Multiplier Range,9. DYNAMIC UI & CARD TITLE FORMATTERS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+IPL Only,Selected Player Name,9. DYNAMIC UI & CARD TITLE FORMATTERS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+IPL Only,Selected Player Header Text,9. DYNAMIC UI & CARD TITLE FORMATTERS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+IPL Only,Linguistic Governance Status,9. DYNAMIC UI & CARD TITLE FORMATTERS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+T20I Only,Total Deliveries Faced,1. VOLUME & BALL COUNT MEASURES,102405,102405,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+T20I Only,Total Deliveries Bowled,1. VOLUME & BALL COUNT MEASURES,101960,101960,0.0,100% Parity,Active,Exact match across filter context.
+T20I Only,Pressure Deliveries Faced,1. VOLUME & BALL COUNT MEASURES,8632,8632,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+T20I Only,Leverage Deliveries Bowled,1. VOLUME & BALL COUNT MEASURES,39154,39154,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+T20I Only,Normal Deliveries Faced,1. VOLUME & BALL COUNT MEASURES,93773,93773,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+T20I Only,Normal Deliveries Bowled,1. VOLUME & BALL COUNT MEASURES,62806,62806,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+T20I Only,Pressure Exposure Share Bat %,1. VOLUME & BALL COUNT MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+T20I Only,Leverage Exposure Share Bowl %,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+T20I Only,Total Runs Scored,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+T20I Only,Pressure Runs Scored,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+T20I Only,Normal Runs Scored,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+T20I Only,Total Bowler Runs Conceded,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+T20I Only,Leverage Runs Conceded,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+T20I Only,Normal Runs Conceded,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+T20I Only,Pressure Dismissals,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+T20I Only,Leverage Wickets Taken,3. PERFORMANCE RATES & SCORING VELOCITY,2347,2347,0.0,100% Parity,Active,Exact match across filter context.
+T20I Only,Pressure Strike Rate,3. PERFORMANCE RATES & SCORING VELOCITY,142.13,142.13,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+T20I Only,Normal Baseline Strike Rate,3. PERFORMANCE RATES & SCORING VELOCITY,133.57,133.57,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+T20I Only,Delta Context Strike Rate,3. PERFORMANCE RATES & SCORING VELOCITY,8.56,8.56,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+T20I Only,Leverage Economy Rate,3. PERFORMANCE RATES & SCORING VELOCITY,8.97,8.97,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+T20I Only,Normal Baseline Economy Rate,3. PERFORMANCE RATES & SCORING VELOCITY,7.97,7.97,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+T20I Only,Delta Context Economy Rate,4. BOUNDARY & DOT-BALL RATIOS,1.0,1.0,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+T20I Only,Pressure Boundaries Hit,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+T20I Only,Pressure Boundary %,4. BOUNDARY & DOT-BALL RATIOS,18.56,18.56,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+T20I Only,Pressure Dots Faced,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+T20I Only,Pressure Dot %,4. BOUNDARY & DOT-BALL RATIOS,42.56,42.56,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+T20I Only,Leverage Boundaries Conceded,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+T20I Only,Leverage Conceded Boundary %,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+T20I Only,Leverage Dots Bowled,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+T20I Only,Leverage Dot %,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+T20I Only,Leverage Wicket Strike Rate,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+T20I Only,Bayes Estimate Rate,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+T20I Only,Bayes CI Low,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+T20I Only,Bayes CI High,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+T20I Only,Bayes CI Width,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+T20I Only,Bayes Error Margin,6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+T20I Only,Official CPRI Score,6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+T20I Only,CPRI CI Low,6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+T20I Only,CPRI CI High,6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+T20I Only,CPRI Error Bar Length,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+T20I Only,Match Level CV,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+T20I Only,Match Success Rate %,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+T20I Only,Jackknife Worst Case Metric,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+T20I Only,Jackknife SE,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+T20I Only,Jackknife Degradation Delta,8. AUCTION EVIDENCE & VALUATION MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+T20I Only,Auction Evidence Tier,8. AUCTION EVIDENCE & VALUATION MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+T20I Only,Sample Confidence Class,8. AUCTION EVIDENCE & VALUATION MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+T20I Only,Player Official Rank,8. AUCTION EVIDENCE & VALUATION MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+T20I Only,Auction Purse Multiplier Range,9. DYNAMIC UI & CARD TITLE FORMATTERS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+T20I Only,Selected Player Name,9. DYNAMIC UI & CARD TITLE FORMATTERS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+T20I Only,Selected Player Header Text,9. DYNAMIC UI & CARD TITLE FORMATTERS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+T20I Only,Linguistic Governance Status,9. DYNAMIC UI & CARD TITLE FORMATTERS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Batter: Tim David,Total Deliveries Faced,1. VOLUME & BALL COUNT MEASURES,1226,1226,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Individual Batter: Tim David,Total Deliveries Bowled,1. VOLUME & BALL COUNT MEASURES,185715,185715,0.0,100% Parity,Active,Exact match across filter context.
+Individual Batter: Tim David,Pressure Deliveries Faced,1. VOLUME & BALL COUNT MEASURES,207,207,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Individual Batter: Tim David,Leverage Deliveries Bowled,1. VOLUME & BALL COUNT MEASURES,70536,70536,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Individual Batter: Tim David,Normal Deliveries Faced,1. VOLUME & BALL COUNT MEASURES,1019,1019,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Individual Batter: Tim David,Normal Deliveries Bowled,1. VOLUME & BALL COUNT MEASURES,115179,115179,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Individual Batter: Tim David,Pressure Exposure Share Bat %,1. VOLUME & BALL COUNT MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Batter: Tim David,Leverage Exposure Share Bowl %,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Batter: Tim David,Total Runs Scored,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Batter: Tim David,Pressure Runs Scored,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Batter: Tim David,Normal Runs Scored,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Batter: Tim David,Total Bowler Runs Conceded,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+Individual Batter: Tim David,Leverage Runs Conceded,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+Individual Batter: Tim David,Normal Runs Conceded,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+Individual Batter: Tim David,Pressure Dismissals,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Batter: Tim David,Leverage Wickets Taken,3. PERFORMANCE RATES & SCORING VELOCITY,4075,4075,0.0,100% Parity,Active,Exact match across filter context.
+Individual Batter: Tim David,Pressure Strike Rate,3. PERFORMANCE RATES & SCORING VELOCITY,203.86,203.86,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Individual Batter: Tim David,Normal Baseline Strike Rate,3. PERFORMANCE RATES & SCORING VELOCITY,172.33,172.33,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Individual Batter: Tim David,Delta Context Strike Rate,3. PERFORMANCE RATES & SCORING VELOCITY,31.54,31.54,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Individual Batter: Tim David,Leverage Economy Rate,3. PERFORMANCE RATES & SCORING VELOCITY,9.29,9.29,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Individual Batter: Tim David,Normal Baseline Economy Rate,3. PERFORMANCE RATES & SCORING VELOCITY,8.35,8.35,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Individual Batter: Tim David,Delta Context Economy Rate,4. BOUNDARY & DOT-BALL RATIOS,0.95,0.95,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Individual Batter: Tim David,Pressure Boundaries Hit,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Batter: Tim David,Pressure Boundary %,4. BOUNDARY & DOT-BALL RATIOS,28.5,28.5,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Individual Batter: Tim David,Pressure Dots Faced,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Batter: Tim David,Pressure Dot %,4. BOUNDARY & DOT-BALL RATIOS,30.43,30.43,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Individual Batter: Tim David,Leverage Boundaries Conceded,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+Individual Batter: Tim David,Leverage Conceded Boundary %,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Batter: Tim David,Leverage Dots Bowled,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+Individual Batter: Tim David,Leverage Dot %,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Batter: Tim David,Leverage Wicket Strike Rate,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Batter: Tim David,Bayes Estimate Rate,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Batter: Tim David,Bayes CI Low,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Batter: Tim David,Bayes CI High,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Batter: Tim David,Bayes CI Width,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Batter: Tim David,Bayes Error Margin,6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Batter: Tim David,Official CPRI Score,6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Batter: Tim David,CPRI CI Low,6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Batter: Tim David,CPRI CI High,6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Batter: Tim David,CPRI Error Bar Length,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Batter: Tim David,Match Level CV,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Batter: Tim David,Match Success Rate %,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Batter: Tim David,Jackknife Worst Case Metric,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Batter: Tim David,Jackknife SE,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Batter: Tim David,Jackknife Degradation Delta,8. AUCTION EVIDENCE & VALUATION MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Batter: Tim David,Auction Evidence Tier,8. AUCTION EVIDENCE & VALUATION MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Batter: Tim David,Sample Confidence Class,8. AUCTION EVIDENCE & VALUATION MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Batter: Tim David,Player Official Rank,8. AUCTION EVIDENCE & VALUATION MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Batter: Tim David,Auction Purse Multiplier Range,9. DYNAMIC UI & CARD TITLE FORMATTERS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Batter: Tim David,Selected Player Name,9. DYNAMIC UI & CARD TITLE FORMATTERS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Batter: Tim David,Selected Player Header Text,9. DYNAMIC UI & CARD TITLE FORMATTERS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Batter: Tim David,Linguistic Governance Status,9. DYNAMIC UI & CARD TITLE FORMATTERS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Total Deliveries Faced,1. VOLUME & BALL COUNT MEASURES,186540,186540,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Individual Bowler: Jasprit Bumrah,Total Deliveries Bowled,1. VOLUME & BALL COUNT MEASURES,1708,1708,0.0,100% Parity,Active,Exact match across filter context.
+Individual Bowler: Jasprit Bumrah,Pressure Deliveries Faced,1. VOLUME & BALL COUNT MEASURES,18915,18915,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Individual Bowler: Jasprit Bumrah,Leverage Deliveries Bowled,1. VOLUME & BALL COUNT MEASURES,763,763,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Individual Bowler: Jasprit Bumrah,Normal Deliveries Faced,1. VOLUME & BALL COUNT MEASURES,167625,167625,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Individual Bowler: Jasprit Bumrah,Normal Deliveries Bowled,1. VOLUME & BALL COUNT MEASURES,945,945,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Individual Bowler: Jasprit Bumrah,Pressure Exposure Share Bat %,1. VOLUME & BALL COUNT MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Leverage Exposure Share Bowl %,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Total Runs Scored,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Pressure Runs Scored,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Normal Runs Scored,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Total Bowler Runs Conceded,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Leverage Runs Conceded,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Normal Runs Conceded,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Pressure Dismissals,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Leverage Wickets Taken,3. PERFORMANCE RATES & SCORING VELOCITY,40,40,0.0,100% Parity,Active,Exact match across filter context.
+Individual Bowler: Jasprit Bumrah,Pressure Strike Rate,3. PERFORMANCE RATES & SCORING VELOCITY,149.61,149.61,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Individual Bowler: Jasprit Bumrah,Normal Baseline Strike Rate,3. PERFORMANCE RATES & SCORING VELOCITY,138.89,138.89,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Individual Bowler: Jasprit Bumrah,Delta Context Strike Rate,3. PERFORMANCE RATES & SCORING VELOCITY,10.71,10.71,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Individual Bowler: Jasprit Bumrah,Leverage Economy Rate,3. PERFORMANCE RATES & SCORING VELOCITY,7.14,7.14,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Individual Bowler: Jasprit Bumrah,Normal Baseline Economy Rate,3. PERFORMANCE RATES & SCORING VELOCITY,7.21,7.21,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Individual Bowler: Jasprit Bumrah,Delta Context Economy Rate,4. BOUNDARY & DOT-BALL RATIOS,-0.07,-0.07,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Individual Bowler: Jasprit Bumrah,Pressure Boundaries Hit,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Pressure Boundary %,4. BOUNDARY & DOT-BALL RATIOS,19.88,19.88,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Individual Bowler: Jasprit Bumrah,Pressure Dots Faced,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Pressure Dot %,4. BOUNDARY & DOT-BALL RATIOS,40.17,40.17,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Individual Bowler: Jasprit Bumrah,Leverage Boundaries Conceded,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Leverage Conceded Boundary %,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Leverage Dots Bowled,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Leverage Dot %,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Leverage Wicket Strike Rate,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Bayes Estimate Rate,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Bayes CI Low,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Bayes CI High,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Bayes CI Width,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Bayes Error Margin,6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Official CPRI Score,6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,CPRI CI Low,6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,CPRI CI High,6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,CPRI Error Bar Length,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Match Level CV,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Match Success Rate %,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Jackknife Worst Case Metric,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Jackknife SE,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Jackknife Degradation Delta,8. AUCTION EVIDENCE & VALUATION MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Auction Evidence Tier,8. AUCTION EVIDENCE & VALUATION MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Sample Confidence Class,8. AUCTION EVIDENCE & VALUATION MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Player Official Rank,8. AUCTION EVIDENCE & VALUATION MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Auction Purse Multiplier Range,9. DYNAMIC UI & CARD TITLE FORMATTERS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Selected Player Name,9. DYNAMIC UI & CARD TITLE FORMATTERS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Selected Player Header Text,9. DYNAMIC UI & CARD TITLE FORMATTERS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Individual Bowler: Jasprit Bumrah,Linguistic Governance Status,9. DYNAMIC UI & CARD TITLE FORMATTERS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Total Deliveries Faced,1. VOLUME & BALL COUNT MEASURES,7048,7048,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Multiple Players: Top 5 Batters,Total Deliveries Bowled,1. VOLUME & BALL COUNT MEASURES,7004,7004,0.0,100% Parity,Active,Exact match across filter context.
+Multiple Players: Top 5 Batters,Pressure Deliveries Faced,1. VOLUME & BALL COUNT MEASURES,589,589,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Multiple Players: Top 5 Batters,Leverage Deliveries Bowled,1. VOLUME & BALL COUNT MEASURES,2913,2913,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Multiple Players: Top 5 Batters,Normal Deliveries Faced,1. VOLUME & BALL COUNT MEASURES,6459,6459,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Multiple Players: Top 5 Batters,Normal Deliveries Bowled,1. VOLUME & BALL COUNT MEASURES,4091,4091,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Multiple Players: Top 5 Batters,Pressure Exposure Share Bat %,1. VOLUME & BALL COUNT MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Leverage Exposure Share Bowl %,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Total Runs Scored,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Pressure Runs Scored,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Normal Runs Scored,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Total Bowler Runs Conceded,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Leverage Runs Conceded,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Normal Runs Conceded,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Pressure Dismissals,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Leverage Wickets Taken,3. PERFORMANCE RATES & SCORING VELOCITY,138,138,0.0,100% Parity,Active,Exact match across filter context.
+Multiple Players: Top 5 Batters,Pressure Strike Rate,3. PERFORMANCE RATES & SCORING VELOCITY,201.87,201.87,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Multiple Players: Top 5 Batters,Normal Baseline Strike Rate,3. PERFORMANCE RATES & SCORING VELOCITY,159.11,159.11,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Multiple Players: Top 5 Batters,Delta Context Strike Rate,3. PERFORMANCE RATES & SCORING VELOCITY,42.76,42.76,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Multiple Players: Top 5 Batters,Leverage Economy Rate,3. PERFORMANCE RATES & SCORING VELOCITY,10.78,10.78,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Multiple Players: Top 5 Batters,Normal Baseline Economy Rate,3. PERFORMANCE RATES & SCORING VELOCITY,9.58,9.58,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Multiple Players: Top 5 Batters,Delta Context Economy Rate,4. BOUNDARY & DOT-BALL RATIOS,1.19,1.19,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Multiple Players: Top 5 Batters,Pressure Boundaries Hit,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Pressure Boundary %,4. BOUNDARY & DOT-BALL RATIOS,29.2,29.2,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Multiple Players: Top 5 Batters,Pressure Dots Faced,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Pressure Dot %,4. BOUNDARY & DOT-BALL RATIOS,26.15,26.15,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Multiple Players: Top 5 Batters,Leverage Boundaries Conceded,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Leverage Conceded Boundary %,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Leverage Dots Bowled,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Leverage Dot %,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Leverage Wicket Strike Rate,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Bayes Estimate Rate,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Bayes CI Low,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Bayes CI High,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Bayes CI Width,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Bayes Error Margin,6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Official CPRI Score,6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Multiple Players: Top 5 Batters,CPRI CI Low,6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Multiple Players: Top 5 Batters,CPRI CI High,6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Multiple Players: Top 5 Batters,CPRI Error Bar Length,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Match Level CV,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Match Success Rate %,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Jackknife Worst Case Metric,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Jackknife SE,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Jackknife Degradation Delta,8. AUCTION EVIDENCE & VALUATION MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Auction Evidence Tier,8. AUCTION EVIDENCE & VALUATION MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Sample Confidence Class,8. AUCTION EVIDENCE & VALUATION MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Player Official Rank,8. AUCTION EVIDENCE & VALUATION MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Auction Purse Multiplier Range,9. DYNAMIC UI & CARD TITLE FORMATTERS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Selected Player Name,9. DYNAMIC UI & CARD TITLE FORMATTERS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Selected Player Header Text,9. DYNAMIC UI & CARD TITLE FORMATTERS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Multiple Players: Top 5 Batters,Linguistic Governance Status,9. DYNAMIC UI & CARD TITLE FORMATTERS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Innings 2 (Chasing),Total Deliveries Faced,1. VOLUME & BALL COUNT MEASURES,88437,88437,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Innings 2 (Chasing),Total Deliveries Bowled,1. VOLUME & BALL COUNT MEASURES,88056,88056,0.0,100% Parity,Active,Exact match across filter context.
+Innings 2 (Chasing),Pressure Deliveries Faced,1. VOLUME & BALL COUNT MEASURES,18365,18365,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Innings 2 (Chasing),Leverage Deliveries Bowled,1. VOLUME & BALL COUNT MEASURES,37428,37428,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Innings 2 (Chasing),Normal Deliveries Faced,1. VOLUME & BALL COUNT MEASURES,70072,70072,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Innings 2 (Chasing),Normal Deliveries Bowled,1. VOLUME & BALL COUNT MEASURES,50628,50628,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Innings 2 (Chasing),Pressure Exposure Share Bat %,1. VOLUME & BALL COUNT MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Innings 2 (Chasing),Leverage Exposure Share Bowl %,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Innings 2 (Chasing),Total Runs Scored,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Innings 2 (Chasing),Pressure Runs Scored,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Innings 2 (Chasing),Normal Runs Scored,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Innings 2 (Chasing),Total Bowler Runs Conceded,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+Innings 2 (Chasing),Leverage Runs Conceded,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+Innings 2 (Chasing),Normal Runs Conceded,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+Innings 2 (Chasing),Pressure Dismissals,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Innings 2 (Chasing),Leverage Wickets Taken,3. PERFORMANCE RATES & SCORING VELOCITY,1826,1826,0.0,100% Parity,Active,Exact match across filter context.
+Innings 2 (Chasing),Pressure Strike Rate,3. PERFORMANCE RATES & SCORING VELOCITY,150.45,150.45,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Innings 2 (Chasing),Normal Baseline Strike Rate,3. PERFORMANCE RATES & SCORING VELOCITY,135.38,135.38,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Innings 2 (Chasing),Delta Context Strike Rate,3. PERFORMANCE RATES & SCORING VELOCITY,15.07,15.07,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Innings 2 (Chasing),Leverage Economy Rate,3. PERFORMANCE RATES & SCORING VELOCITY,8.43,8.43,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Innings 2 (Chasing),Normal Baseline Economy Rate,3. PERFORMANCE RATES & SCORING VELOCITY,8.75,8.75,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Innings 2 (Chasing),Delta Context Economy Rate,4. BOUNDARY & DOT-BALL RATIOS,-0.32,-0.32,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Innings 2 (Chasing),Pressure Boundaries Hit,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Innings 2 (Chasing),Pressure Boundary %,4. BOUNDARY & DOT-BALL RATIOS,20.01,20.01,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Innings 2 (Chasing),Pressure Dots Faced,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Innings 2 (Chasing),Pressure Dot %,4. BOUNDARY & DOT-BALL RATIOS,39.85,39.85,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Innings 2 (Chasing),Leverage Boundaries Conceded,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+Innings 2 (Chasing),Leverage Conceded Boundary %,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Innings 2 (Chasing),Leverage Dots Bowled,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+Innings 2 (Chasing),Leverage Dot %,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Innings 2 (Chasing),Leverage Wicket Strike Rate,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Innings 2 (Chasing),Bayes Estimate Rate,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Innings 2 (Chasing),Bayes CI Low,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Innings 2 (Chasing),Bayes CI High,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Innings 2 (Chasing),Bayes CI Width,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Innings 2 (Chasing),Bayes Error Margin,6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Innings 2 (Chasing),Official CPRI Score,6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Innings 2 (Chasing),CPRI CI Low,6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Innings 2 (Chasing),CPRI CI High,6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Innings 2 (Chasing),CPRI Error Bar Length,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Innings 2 (Chasing),Match Level CV,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Innings 2 (Chasing),Match Success Rate %,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Innings 2 (Chasing),Jackknife Worst Case Metric,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Innings 2 (Chasing),Jackknife SE,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Innings 2 (Chasing),Jackknife Degradation Delta,8. AUCTION EVIDENCE & VALUATION MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Innings 2 (Chasing),Auction Evidence Tier,8. AUCTION EVIDENCE & VALUATION MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Innings 2 (Chasing),Sample Confidence Class,8. AUCTION EVIDENCE & VALUATION MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Innings 2 (Chasing),Player Official Rank,8. AUCTION EVIDENCE & VALUATION MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Innings 2 (Chasing),Auction Purse Multiplier Range,9. DYNAMIC UI & CARD TITLE FORMATTERS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Innings 2 (Chasing),Selected Player Name,9. DYNAMIC UI & CARD TITLE FORMATTERS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Innings 2 (Chasing),Selected Player Header Text,9. DYNAMIC UI & CARD TITLE FORMATTERS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Innings 2 (Chasing),Linguistic Governance Status,9. DYNAMIC UI & CARD TITLE FORMATTERS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Death Phase (Overs 16-20),Total Deliveries Faced,1. VOLUME & BALL COUNT MEASURES,40547,40547,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Death Phase (Overs 16-20),Total Deliveries Bowled,1. VOLUME & BALL COUNT MEASURES,40237,40237,0.0,100% Parity,Active,Exact match across filter context.
+Death Phase (Overs 16-20),Pressure Deliveries Faced,1. VOLUME & BALL COUNT MEASURES,8039,8039,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Death Phase (Overs 16-20),Leverage Deliveries Bowled,1. VOLUME & BALL COUNT MEASURES,22811,22811,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Death Phase (Overs 16-20),Normal Deliveries Faced,1. VOLUME & BALL COUNT MEASURES,32508,32508,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Death Phase (Overs 16-20),Normal Deliveries Bowled,1. VOLUME & BALL COUNT MEASURES,17426,17426,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Death Phase (Overs 16-20),Pressure Exposure Share Bat %,1. VOLUME & BALL COUNT MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Death Phase (Overs 16-20),Leverage Exposure Share Bowl %,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Death Phase (Overs 16-20),Total Runs Scored,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Death Phase (Overs 16-20),Pressure Runs Scored,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Death Phase (Overs 16-20),Normal Runs Scored,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Death Phase (Overs 16-20),Total Bowler Runs Conceded,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+Death Phase (Overs 16-20),Leverage Runs Conceded,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+Death Phase (Overs 16-20),Normal Runs Conceded,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+Death Phase (Overs 16-20),Pressure Dismissals,2. RUNS & DISMISSAL AGGREGATIONS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Death Phase (Overs 16-20),Leverage Wickets Taken,3. PERFORMANCE RATES & SCORING VELOCITY,1800,1800,0.0,100% Parity,Active,Exact match across filter context.
+Death Phase (Overs 16-20),Pressure Strike Rate,3. PERFORMANCE RATES & SCORING VELOCITY,152.82,152.82,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Death Phase (Overs 16-20),Normal Baseline Strike Rate,3. PERFORMANCE RATES & SCORING VELOCITY,161.55,161.55,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Death Phase (Overs 16-20),Delta Context Strike Rate,3. PERFORMANCE RATES & SCORING VELOCITY,-8.74,-8.74,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Death Phase (Overs 16-20),Leverage Economy Rate,3. PERFORMANCE RATES & SCORING VELOCITY,10.61,10.61,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Death Phase (Overs 16-20),Normal Baseline Economy Rate,3. PERFORMANCE RATES & SCORING VELOCITY,9.36,9.36,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Death Phase (Overs 16-20),Delta Context Economy Rate,4. BOUNDARY & DOT-BALL RATIOS,1.25,1.25,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Death Phase (Overs 16-20),Pressure Boundaries Hit,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Death Phase (Overs 16-20),Pressure Boundary %,4. BOUNDARY & DOT-BALL RATIOS,20.85,20.85,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Death Phase (Overs 16-20),Pressure Dots Faced,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Death Phase (Overs 16-20),Pressure Dot %,4. BOUNDARY & DOT-BALL RATIOS,43.86,43.86,0.0,100% Parity,Inherited/Not Applicable,Exact match across filter context.
+Death Phase (Overs 16-20),Leverage Boundaries Conceded,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+Death Phase (Overs 16-20),Leverage Conceded Boundary %,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Death Phase (Overs 16-20),Leverage Dots Bowled,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Active,TOM structural validation passed.
+Death Phase (Overs 16-20),Leverage Dot %,4. BOUNDARY & DOT-BALL RATIOS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Death Phase (Overs 16-20),Leverage Wicket Strike Rate,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Death Phase (Overs 16-20),Bayes Estimate Rate,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Death Phase (Overs 16-20),Bayes CI Low,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Death Phase (Overs 16-20),Bayes CI High,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Death Phase (Overs 16-20),Bayes CI Width,5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Death Phase (Overs 16-20),Bayes Error Margin,6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Death Phase (Overs 16-20),Official CPRI Score,6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Death Phase (Overs 16-20),CPRI CI Low,6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Death Phase (Overs 16-20),CPRI CI High,6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Death Phase (Overs 16-20),CPRI Error Bar Length,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Death Phase (Overs 16-20),Match Level CV,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Death Phase (Overs 16-20),Match Success Rate %,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Death Phase (Overs 16-20),Jackknife Worst Case Metric,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Death Phase (Overs 16-20),Jackknife SE,7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Death Phase (Overs 16-20),Jackknife Degradation Delta,8. AUCTION EVIDENCE & VALUATION MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Death Phase (Overs 16-20),Auction Evidence Tier,8. AUCTION EVIDENCE & VALUATION MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Death Phase (Overs 16-20),Sample Confidence Class,8. AUCTION EVIDENCE & VALUATION MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Death Phase (Overs 16-20),Player Official Rank,8. AUCTION EVIDENCE & VALUATION MEASURES,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Death Phase (Overs 16-20),Auction Purse Multiplier Range,9. DYNAMIC UI & CARD TITLE FORMATTERS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Death Phase (Overs 16-20),Selected Player Name,9. DYNAMIC UI & CARD TITLE FORMATTERS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Death Phase (Overs 16-20),Selected Player Header Text,9. DYNAMIC UI & CARD TITLE FORMATTERS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.
+Death Phase (Overs 16-20),Linguistic Governance Status,9. DYNAMIC UI & CARD TITLE FORMATTERS,Verified via TOM,Verified via TOM,0.0,Validated,Inherited/Not Applicable,TOM structural validation passed.

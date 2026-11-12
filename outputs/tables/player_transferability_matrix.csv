@@ -1,0 +1,21 @@
+Discipline,Official_Rank,Player_Name,Combined_CPRI,Total_Pressure_Balls,IPL_Pressure_Balls,IPL_Pressure_SR,T20I_Pressure_Balls,T20I_Pressure_SR,Transferability_Classification,Auction_Transferability_Risk,Strategic_Franchise_Verdict
+Batter,1,Naman Dhir,74.41,91.0,62,203.23,29,241.38,IPL-Proven Core,Low Risk (Elite IPL Battle-Tested),IPL SR 203.2
+Batter,2,Tim David,72.46,207.0,124,199.19,83,210.84,Dual-Arena Certified,Low Risk (Proven in IPL & T20I),IPL SR 199.2
+Batter,3,Phil Salt,71.83,55.0,4,225.0,51,233.33,T20I-Dominant / Emerging IPL,Moderate Risk (Limited IPL Pressure Balls),Requires Indian Condition Adjustment
+Batter,4,Jos Buttler,69.3,146.0,125,188.8,21,190.48,IPL-Proven Core,Low Risk (Elite IPL Battle-Tested),IPL SR 188.8
+Batter,5,Reeza Hendricks,68.48,90.0,0,,90,185.56,T20I-Exclusive,Moderate Risk (Zero IPL Experience),Requires Indian Condition Adjustment
+Batter,6,Glenn Maxwell,67.79,142.0,65,207.69,77,176.62,Dual-Arena Certified,Low Risk (Proven in IPL & T20I),IPL SR 207.7
+Batter,7,Ashutosh Sharma,67.47,140.0,140,193.57,0,,IPL-Proven Core,Low Risk (Elite IPL Battle-Tested),IPL SR 193.6
+Batter,8,Rinku Singh,67.44,188.0,169,191.72,19,136.84,IPL-Proven Core,Low Risk (Elite IPL Battle-Tested),IPL SR 191.7
+Batter,9,Suryakumar Yadav,66.8,339.0,247,163.16,92,202.17,Dual-Arena Certified,Low Risk (Proven in IPL & T20I),IPL SR 163.2
+Batter,10,Shreyas Iyer,66.32,181.0,96,212.5,85,151.76,Dual-Arena Certified,Low Risk (Proven in IPL & T20I),IPL SR 212.5
+Bowler,1,Jasprit Bumrah,76.83,763.0,576,6.95,187,6.9,Dual-Arena Certified,Zero Risk (Elite All-Phase Gold Standard),IPL Econ 6.95
+Bowler,2,Sikandar Raza,75.6,328.0,16,3.75,312,6.58,T20I-Dominant / Fringe IPL,Moderate Risk (Sparse IPL Leverage Sample),Requires Heavy Pitch & Boundary Size Discount
+Bowler,3,Haris Rauf,74.13,505.0,0,,505,7.56,T20I-Exclusive,High Risk (Unverified on Flat Indian Decks),Requires Heavy Pitch & Boundary Size Discount
+Bowler,4,George Dockrell,73.92,76.0,0,,76,5.29,T20I-Exclusive,High Risk (Unverified on Flat Indian Decks),Requires Heavy Pitch & Boundary Size Discount
+Bowler,5,Imad Wasim,73.5,130.0,0,,130,5.77,T20I-Exclusive,High Risk (Unverified on Flat Indian Decks),Requires Heavy Pitch & Boundary Size Discount
+Bowler,6,Salman Mirza,72.0,102.0,0,,102,6.76,T20I-Exclusive,High Risk (Unverified on Flat Indian Decks),Requires Heavy Pitch & Boundary Size Discount
+Bowler,7,Matheesha Pathirana,71.76,464.0,278,8.12,186,7.65,Dual-Arena Certified,Zero Risk (Elite All-Phase Gold Standard),IPL Econ 8.12
+Bowler,8,Sufiyan Muqeem,71.49,114.0,0,,114,6.26,T20I-Exclusive,High Risk (Unverified on Flat Indian Decks),Requires Heavy Pitch & Boundary Size Discount
+Bowler,9,Hasan Mahmud,69.96,148.0,0,,148,7.42,T20I-Exclusive,High Risk (Unverified on Flat Indian Decks),Requires Heavy Pitch & Boundary Size Discount
+Bowler,10,Saim Ayub,69.85,272.0,0,,272,6.57,T20I-Exclusive,High Risk (Unverified on Flat Indian Decks),Requires Heavy Pitch & Boundary Size Discount

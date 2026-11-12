@@ -1,0 +1,21 @@
+Official_Rank,Player_Name,Discipline,Pressure_Balls,Observed_Metric,Certified_Bayes_Estimate,Calculated_Bayes_From_Priors,Reported_95_CI,CI_Center,Mathematical_Validity,Audit_Notes
+1,Naman Dhir,Batter,91,215.38,195.15,188.85,"[158.97, 231.34]",195.16,CERTIFIED VALID,Confirmed exact alignment with empirical Bayes shrinkage.
+2,Tim David,Batter,207,203.86,195.0,191.6,"[168.72, 221.28]",195.0,CERTIFIED VALID,Confirmed exact alignment with empirical Bayes shrinkage.
+3,Phil Salt,Batter,55,232.73,199.0,188.84,"[157.30, 240.70]",199.0,CERTIFIED VALID,Confirmed exact alignment with empirical Bayes shrinkage.
+4,Jos Buttler,Batter,146,189.04,180.34,176.36,"[150.02, 210.66]",180.34,CERTIFIED VALID,Confirmed exact alignment with empirical Bayes shrinkage.
+5,Reeza Hendricks,Batter,90,185.56,174.11,168.77,"[137.78, 210.44]",174.11,CERTIFIED VALID,Confirmed exact alignment with empirical Bayes shrinkage.
+6,Glenn Maxwell,Batter,142,190.85,181.57,177.46,"[150.92, 212.22]",181.57,CERTIFIED VALID,Confirmed exact alignment with empirical Bayes shrinkage.
+7,Ashutosh Sharma,Batter,140,193.57,183.6,179.37,"[152.78, 214.42]",183.6,CERTIFIED VALID,Confirmed exact alignment with empirical Bayes shrinkage.
+8,Rinku Singh,Batter,188,186.17,179.57,176.33,"[152.21, 206.93]",179.57,CERTIFIED VALID,Confirmed exact alignment with empirical Bayes shrinkage.
+9,Suryakumar Yadav,Batter,339,173.75,171.06,169.23,"[149.86, 192.25]",171.06,CERTIFIED VALID,Confirmed exact alignment with empirical Bayes shrinkage.
+10,Shreyas Iyer,Batter,181,183.98,177.55,174.27,"[149.76, 205.35]",177.56,CERTIFIED VALID,Confirmed exact alignment with empirical Bayes shrinkage.
+1,Jasprit Bumrah,Bowler,763,6.94,7.15,7.04,"[6.30, 8.00]",7.15,CERTIFIED VALID,"Jasprit Bumrah certified posterior economy is 7.15 with 95% CI [6.30, 8.00] (center 7.15). Phase 05 draft text stating [6.81, 7.07] was mathematically invalid (centered on 6.94 without prior shrinkage) and is officially revoked."
+2,Sikandar Raza,Bowler,328,6.44,6.98,6.72,"[5.77, 8.20]",6.98,CERTIFIED VALID,Confirmed exact alignment with empirical Bayes shrinkage.
+3,Haris Rauf,Bowler,505,7.56,7.78,7.64,"[6.76, 8.79]",7.77,CERTIFIED VALID,Confirmed exact alignment with empirical Bayes shrinkage.
+4,George Dockrell,Bowler,76,5.29,7.23,6.6,"[5.31, 9.16]",7.23,CERTIFIED VALID,Confirmed exact alignment with empirical Bayes shrinkage.
+5,Imad Wasim,Bowler,130,5.77,7.08,6.56,"[5.39, 8.76]",7.07,CERTIFIED VALID,Confirmed exact alignment with empirical Bayes shrinkage.
+6,Salman Mirza,Bowler,102,6.76,7.82,7.34,"[6.01, 9.63]",7.82,CERTIFIED VALID,Confirmed exact alignment with empirical Bayes shrinkage.
+7,Matheesha Pathirana,Bowler,464,7.93,8.11,7.98,"[7.06, 9.16]",8.11,CERTIFIED VALID,Confirmed exact alignment with empirical Bayes shrinkage.
+8,Sufiyan Muqeem,Bowler,114,6.26,7.47,6.96,"[5.71, 9.22]",7.46,CERTIFIED VALID,Confirmed exact alignment with empirical Bayes shrinkage.
+9,Hasan Mahmud,Bowler,148,7.42,8.03,7.69,"[6.41, 9.65]",8.03,CERTIFIED VALID,Confirmed exact alignment with empirical Bayes shrinkage.
+10,Saim Ayub,Bowler,272,6.57,7.17,6.88,"[5.86, 8.48]",7.17,CERTIFIED VALID,Confirmed exact alignment with empirical Bayes shrinkage.

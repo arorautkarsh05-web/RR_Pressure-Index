@@ -1,0 +1,6 @@
+Scope_Dimension,Reported_Value,Ground_Truth_Raw_Value,IPL_Share,T20I_Share,Status,Notes
+Total Scheduled Senior Fixtures,853,853,370,483,100% VERIFIED,Scheduled fixtures in 2021-2025 Tier-1 window.
+Matches with Recorded Deliveries,837,837,368,469,100% VERIFIED,16 abandoned/no-result matches without play excluded from ball tracking.
+Total Senior Delivery Records,194014,194014,88142,105872,100% VERIFIED,Immutable ball-by-ball corpus.
+Total Registered Cricketers,891,891,N/A,N/A,100% VERIFIED,Canonical unique resolved player entities (856 active + 35 squad reserve).
+Player-Discipline Profiles,1235,1235,N/A,N/A,100% VERIFIED,856 active cricketers + 379 dual-discipline all-rounders.

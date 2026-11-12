@@ -1,0 +1,3 @@
+Environment,Matches,Deliveries,Pop_1st_Inn_Score,Boundary_Frequency,Impact_Player_Effect,Franchise_Transfer_Weight
+IPL (Senior),367,87687,178.4,1 in every 5.2 balls,Active (Deep batting down to #8/#9; higher required run rates),1.00x (Direct Baseline for IPL 2027)
+T20 Internationals (Senior),470,106327,156.2,1 in every 6.8 balls,None (Traditional 11-player constraint; lower death surge),0.85x - 0.90x (Requires pitch/boundary discount)

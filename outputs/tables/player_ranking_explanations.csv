@@ -1,0 +1,21 @@
+pressure_rank,player_name,competitions,confidence_class,CPRI,ranking_explanation,role
+1,Naman Dhir,IPL/T20I,Tier B (Moderate Confidence: 50<=N<100),74.41,Extraordinary situational elevation: +48.91 Bayes delta SR above context benchmark; elite 29.1% boundary rate with 72.4 CI precision.,Batter
+2,Tim David,IPL/T20I,Tier A (High Confidence: N>=100),72.46,Franchise-grade death & chase finisher: +50.30 Bayes delta SR across 207 pressure balls; proven high-volume Tier A sample.,Batter
+3,Phil Salt,IPL/T20I,Tier B (Moderate Confidence: 50<=N<100),71.83,Explosive chase enforcer: 232.73 pressure SR (+54.13 delta); aggressive boundary maximization (26.3%) despite Tier B sample size.,Batter
+4,Jos Buttler,IPL/T20I,Tier A (High Confidence: N>=100),69.3,Master clutch anchor & accelerator: 189.04 pressure SR (+42.38 delta); exceptional 70% match consistency and elite dot suppression (25.2%).,Batter
+5,Reeza Hendricks,T20I,Tier B (Moderate Confidence: 50<=N<100),68.48,Prolific top-order tempo controller: 185.56 pressure SR (+37.24 delta); 25.4% boundary execution with steady match-level baseline.,Batter
+6,Glenn Maxwell,IPL/T20I,Tier A (High Confidence: N>=100),67.79,Dynamic high-impact disruptor: 190.85 pressure SR (+43.27 delta); 26.9% boundary rate across 142 pressure balls.,Batter
+7,Ashutosh Sharma,IPL,Tier A (High Confidence: N>=100),67.47,Fearless domestic death finisher: 193.57 pressure SR (+36.94 delta); 27.3% boundary percentage across 140 pressure deliveries.,Batter
+8,Rinku Singh,IPL/T20I,Tier A (High Confidence: N>=100),67.44,Elite clutch finisher: 186.17 pressure SR (+36.44 delta); staggering 118.5 death average with remarkable low dismissal rate (7.4%).,Batter
+9,Suryakumar Yadav,IPL/T20I,Tier A (High Confidence: N>=100),66.8,Highest volume pressure anchor in world cricket: 339 pressure balls; +35.68 delta SR; narrowest credible interval (42.4 width); peak Tier A certainty.,Batter
+10,Shreyas Iyer,IPL/T20I,Tier A (High Confidence: N>=100),66.32,High-calibre middle-overs crisis stabilizer: 183.98 pressure SR (+40.27 delta); exceptional 22.8% low dot-ball rate.,Batter
+1,Jasprit Bumrah,IPL/T20I,Tier A (High Confidence: N>=100),76.83,The gold standard in global cricket: 763 leverage balls; phenomenal -1.76 rpo economy delta; 14.7% boundary suppression; peak Tier A sample certainty.,Bowler
+2,Sikandar Raza,IPL/T20I,Tier A (High Confidence: N>=100),75.6,Elite all-phase spin execution: 6.44 leverage economy (-1.30 delta) across 328 balls; outstanding 10.7% boundary concession suppression.,Bowler
+3,Haris Rauf,T20I,Tier A (High Confidence: N>=100),74.13,High-pace strike enforcer: 7.56 leverage economy across 505 balls; exceptional 7.8% wicket strike rate; unmatched pace penetration.,Bowler
+4,George Dockrell,T20I,Tier B (Moderate Confidence: 60<=N<100),73.92,Precision powerplay controller: 5.29 leverage economy (-1.01 delta) across 76 balls; elite 9.9% boundary suppression; Tier B sample.,Bowler
+5,Imad Wasim,T20I,Tier A (High Confidence: N>=100),73.5,Par-strangling defensive maestro: 5.77 leverage economy (-1.17 delta) across 130 balls; 11.9% boundary suppression and high dot frequency.,Bowler
+6,Salman Mirza,T20I,Tier A (High Confidence: N>=100),72.0,Specialist death executioner: 6.76 leverage economy (-0.91 delta) across 102 balls; 7.5% wicket strike rate in high-leverage situations.,Bowler
+7,Matheesha Pathirana,IPL/T20I,Tier A (High Confidence: N>=100),71.76,Lethal slinging yorker machine: 7.93 leverage economy (-1.00 delta) across 464 balls; elite 8.2% wicket taking frequency at the death.,Bowler
+8,Sufiyan Muqeem,T20I,Tier A (High Confidence: N>=100),71.49,Mystery wrist-spin strangler: 6.26 leverage economy (-0.82 delta) across 114 balls; 14.3% boundary suppression.,Bowler
+9,Hasan Mahmud,T20I,Tier A (High Confidence: N>=100),69.96,Aggressive pace breakthrough specialist: 7.42 leverage economy (-0.68 delta) across 148 balls; high 8.2% wicket rate.,Bowler
+10,Saim Ayub,T20I,Tier A (High Confidence: N>=100),69.85,Economical defensive off-spin controller: 6.57 leverage economy (-0.90 delta) across 272 balls; 12.5% boundary concession rate.,Bowler

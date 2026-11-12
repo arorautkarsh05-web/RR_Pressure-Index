@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RR AUCTION INTELLIGENCE 2027 — Pressure Performance &amp; Player Reliability Command Center</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23E81B84'/><text x='50%' y='65%' font-size='50' font-weight='900' fill='white' text-anchor='middle'>RR</text></svg>">
+</head>
+<body>
+
+  <!-- ========================================================================= -->
+  <!-- 1. APPLICATION HEADER                                                     -->
+  <!-- ========================================================================= -->
+  <header class="app-header">
+    <div class="brand-section">
+      <div class="rr-logo-badge">RR</div>
+      <div class="brand-title">
+        <h1>RR AUCTION INTELLIGENCE 2027</h1>
+        <p>Pressure Performance &amp; Player Reliability Command Center | SupeRR Selector Season 2</p>
+      </div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 16px;">
+      <div class="header-status-badge">
+        <span class="status-dot"></span>
+        PHASE 03.2 CERTIFIED MODEL
+      </div>
+      <div style="font-size: 11px; color: var(--text-dim); text-align: right;">
+        Senior T20 (2022–2026)<br>
+        <strong>194,014 Balls | 837 Matches</strong>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================= -->
+  <!-- 2. NAVIGATION BAR                                                         -->
+  <!-- ========================================================================= -->
+  <nav class="nav-bar">
+    <button class="nav-tab" data-target="tab-overview">1. Executive Overview</button>
+    <button class="nav-tab" data-target="tab-batting">2. Batting Intelligence</button>
+    <button class="nav-tab active" data-target="tab-bowling">3. Bowling Intelligence</button>
+    <button class="nav-tab" data-target="tab-comparison">4. Player Comparison Lab</button>
+    <button class="nav-tab" data-target="tab-auction">5. Auction Intelligence</button>
+    <button class="nav-tab" data-target="tab-methodology">6. Model Methodology &amp; Audit</button>
+  </nav>
+
+  <!-- ========================================================================= -->
+  <!-- 3. MAIN DASHBOARD CONTENT AREA                                            -->
+  <!-- ========================================================================= -->
+  <main class="dashboard-container">
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!-- TAB 1: EXECUTIVE COMMAND CENTER                                         -->
+    <!-- ----------------------------------------------------------------------- -->
+    <div id="tab-overview" class="tab-pane">
+      <!-- KPI Metric Row -->
+      <div class="kpi-grid">
+        <div class="kpi-card pink">
+          <div class="kpi-label">Qualified Batters</div>
+          <div class="kpi-val">117</div>
+          <div class="kpi-sub">Official Cohort (&ge;50 Balls; 45 Tier A &ge;100)</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Qualified Bowlers</div>
+          <div class="kpi-val">250</div>
+          <div class="kpi-sub">Official Cohort (&ge;60 Balls; 194 Tier A &ge;100)</div>
+        </div>
+        <div class="kpi-card gold">
+          <div class="kpi-label">Senior T20 Matches</div>
+          <div class="kpi-val">837</div>
+          <div class="kpi-sub">367 Senior IPL + 470 Senior T20I (2022–2026)</div>
+        </div>
+        <div class="kpi-card green">
+          <div class="kpi-label">Senior Deliveries</div>
+          <div class="kpi-val">194,014</div>
+          <div class="kpi-sub">24,016 Pressure Bat Balls | 41,202 Leverage Bowl Balls</div>
+        </div>
+        <div class="kpi-card pink">
+          <div class="kpi-label">Top Batting CPRI</div>
+          <div class="kpi-val">74.41</div>
+          <div class="kpi-sub">Naman Dhir (#1 Batter | +69.14 Delta SR)</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Top Bowling CPRI</div>
+          <div class="kpi-val">76.83</div>
+          <div class="kpi-sub">Jasprit Bumrah (#1 Bowler | -1.97 Delta Econ)</div>
+        </div>
+      </div>
+
+      <!-- Top 5 Rankings Chart Row -->
+      <div class="grid-2col">
+        <div class="panel">
+          <div class="panel-header">
+            <span class="panel-title">Top 5 Pressure Batters — Composite CPRI &amp; 95% Credible Interval</span>
+            <span class="panel-subtitle">Elite Finishers (&ge;100 Pressure Balls)</span>
+          </div>
+          <div id="chart-top-batters"></div>
+        </div>
+        <div class="panel">
+          <div class="panel-header">
+            <span class="panel-title">Top 5 Pressure Bowlers — Composite CPRI &amp; 95% Credible Interval</span>
+            <span class="panel-subtitle">Elite Enforcers (&ge;120 Leverage Balls)</span>
+          </div>
+          <div id="chart-top-bowlers"></div>
+        </div>
+      </div>
+
+      <!-- Cohort Quadrant Scatter Row -->
+      <div class="grid-2col">
+        <div class="panel">
+          <div class="panel-header">
+            <span class="panel-title">Batting Cohort Landscape: Normal SR vs. Pressure SR</span>
+            <span class="panel-subtitle">Benchmark Baseline: 133.60 SR | Top-Right: Positive Elevation</span>
+          </div>
+          <div id="chart-bat-quadrant"></div>
+        </div>
+        <div class="panel">
+          <div class="panel-header">
+            <span class="panel-title">Bowling Cohort Landscape: Normal Econ vs. Leverage Econ</span>
+            <span class="panel-subtitle">Benchmark Baseline: 8.15 rpo | Bottom-Left: Elite Restriction</span>
+          </div>
+          <div id="chart-bowl-quadrant"></div>
+        </div>
+      </div>
+
+      <!-- Key Franchise Strategic Takeaways -->
+      <div class="panel">
+        <div class="panel-header">
+          <span class="panel-title">Executive Auction Takeaways &amp; Strategic Synthesis</span>
+          <span class="panel-subtitle">Rajasthan Royals Auction Strategy Board</span>
+        </div>
+        <div class="grid-3col" style="margin-bottom: 0;">
+          <div style="background: rgba(232, 27, 132, 0.05); border: 1px solid rgba(232, 27, 132, 0.2); border-radius: 8px; padding: 16px;">
+            <strong style="color: var(--rr-pink); font-size: 13px; display: block; margin-bottom: 6px;">1. The Middle-Overs &amp; Death Finishers</strong>
+            <p style="font-size: 12px; color: var(--text-muted); line-height: 1.6;">
+              <strong>Naman Dhir (CPRI 74.41)</strong> and <strong>Tim David (CPRI 72.46)</strong> lead world cricket in batting pressure elevation. In high-pressure situations (&Psi; &ge; 0.60), their context-adjusted strike rates surge by <strong>+69.14</strong> and <strong>+59.17</strong> respectively against expected baselines, combining elite boundary percentages (&gt;26%) with heavy dot-ball suppression.
+            </p>
+          </div>
+          <div style="background: rgba(0, 75, 160, 0.05); border: 1px solid rgba(0, 75, 160, 0.2); border-radius: 8px; padding: 16px;">
+            <strong style="color: var(--rr-blue-light); font-size: 13px; display: block; margin-bottom: 6px;">2. The Unbreachable Death Enforcers</strong>
+            <p style="font-size: 12px; color: var(--text-muted); line-height: 1.6;">
+              <strong>Jasprit Bumrah (CPRI 76.83)</strong> and <strong>Sikandar Raza (CPRI 75.60)</strong> represent the pinnacle of bowling execution. Bumrah delivers an extraordinary leverage economy of <strong>6.94 rpo</strong> across 763 high-leverage deliveries (&lambda; &ge; 0.60), outperforming match context by <strong>-1.97 rpo</strong> with 14.7% boundary suppression.
+            </p>
+          </div>
+          <div style="background: rgba(255, 184, 28, 0.05); border: 1px solid rgba(255, 184, 28, 0.2); border-radius: 8px; padding: 16px;">
+            <strong style="color: var(--rr-gold); font-size: 13px; display: block; margin-bottom: 6px;">3. Bayesian Shrinkage &amp; Robustness</strong>
+            <p style="font-size: 12px; color: var(--text-muted); line-height: 1.6;">
+              Every player is protected against small-sample noise via empirical Bayes shrinkage toward context priors. Leave-one-out Jackknife stress testing confirms <strong>zero volatile single-match dependency</strong>: maximum rank drop across all 20 players is &le; 1 position, guaranteeing 100% auction decision safety.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!-- TAB 2: BATTING INTELLIGENCE                                             -->
+    <!-- ----------------------------------------------------------------------- -->
+    <div id="tab-batting" class="tab-pane">
+      <!-- Slicer Bar -->
+      <div class="slicer-toolbar">
+        <div class="slicer-group">
+          <span class="slicer-label">Tournament:</span>
+          <select class="slicer-select">
+            <option>All Senior T20 (IPL + T20I)</option>
+            <option>Indian Premier League (Senior IPL)</option>
+            <option>Twenty20 International (Senior T20I)</option>
+          </select>
+        </div>
+        <div class="slicer-group">
+          <span class="slicer-label">Evidence Tier:</span>
+          <select class="slicer-select">
+            <option>All Qualified Tiers (Tier 1–3)</option>
+            <option>Tier 1: Proven Core Target (&ge;100 IPL Balls)</option>
+            <option>Tier 2: High Ceiling / T20I Proven</option>
+            <option>Tier 3: Emerging Sample</option>
+          </select>
+        </div>
+        <div class="slicer-group">
+          <span class="slicer-label">Min Balls Faced:</span>
+          <div class="slicer-btn-group">
+            <button class="slicer-btn active">&ge;100 (Official)</button>
+            <button class="slicer-btn">&ge;150</button>
+            <button class="slicer-btn">&ge;200</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Master-Detail Table & Dossier Grid -->
+      <div class="grid-master-detail">
+        <div class="panel">
+          <div class="panel-header">
+            <span class="panel-title">Top 10 Certified Batters Under High Pressure (&Psi; &ge; 0.60)</span>
+            <span class="panel-subtitle">Click row to update tactical dossier</span>
+          </div>
+          <div class="data-table-container">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>Batter</th>
+                  <th>CPRI</th>
+                  <th>Press SR</th>
+                  <th>Delta SR</th>
+                  <th>Balls</th>
+                  <th>Bayes SR</th>
+                  <th>95% Credible Interval</th>
+                  <th>Match CV</th>
+                  <th>Evidence Tier</th>
+                </tr>
+              </thead>
+              <tbody id="batting-table-body"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div id="batter-dossier-container">
+          <!-- Filled dynamically by updateBatterDossier -->
+        </div>
+      </div>
+
+      <!-- Uncertainty Chart -->
+      <div class="panel">
+        <div class="panel-header">
+          <span class="panel-title">Bayesian Shrinkage &amp; Estimation Uncertainty (95% Credible Intervals)</span>
+          <span class="panel-subtitle">Horizontal error bars indicate 95% highest posterior density interval</span>
+        </div>
+        <div id="chart-bat-uncertainty"></div>
+      </div>
+    </div>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!-- TAB 3: BOWLING INTELLIGENCE                                             -->
+    <!-- ----------------------------------------------------------------------- -->
+    <div id="tab-bowling" class="tab-pane active">
+      <!-- Slicer Bar -->
+      <div class="slicer-toolbar">
+        <div class="slicer-group">
+          <span class="slicer-label">Tournament:</span>
+          <select class="slicer-select">
+            <option>All Senior T20 (IPL + T20I)</option>
+            <option>Indian Premier League (Senior IPL)</option>
+            <option>Twenty20 International (Senior T20I)</option>
+          </select>
+        </div>
+        <div class="slicer-group">
+          <span class="slicer-label">Evidence Tier:</span>
+          <select class="slicer-select">
+            <option>All Qualified Tiers (Tier 1–3)</option>
+            <option>Tier 1: Proven Core Target (&ge;120 IPL Balls)</option>
+            <option>Tier 2: High Ceiling / T20I Proven</option>
+            <option>Tier 3: Emerging Sample</option>
+          </select>
+        </div>
+        <div class="slicer-group">
+          <span class="slicer-label">Min Balls Bowled:</span>
+          <div class="slicer-btn-group">
+            <button class="slicer-btn active">&ge;120 (Official)</button>
+            <button class="slicer-btn">&ge;180</button>
+            <button class="slicer-btn">&ge;240</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Master-Detail Table & Dossier Grid -->
+      <div class="grid-master-detail">
+        <div class="panel">
+          <div class="panel-header">
+            <span class="panel-title">Top 10 Certified Bowlers Under High Leverage (&lambda; &ge; 0.60)</span>
+            <span class="panel-subtitle">Click row to update tactical dossier</span>
+          </div>
+          <div class="data-table-container">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>Bowler</th>
+                  <th>CPRI</th>
+                  <th>Lev Econ</th>
+                  <th>Delta Econ</th>
+                  <th>Balls</th>
+                  <th>Bayes Econ</th>
+                  <th>95% Credible Interval</th>
+                  <th>Match CV</th>
+                  <th>Evidence Tier</th>
+                </tr>
+              </thead>
+              <tbody id="bowling-table-body"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div id="bowler-dossier-container">
+          <!-- Filled dynamically by updateBowlerDossier -->
+        </div>
+      </div>
+
+      <!-- Uncertainty Chart -->
+      <div class="panel">
+        <div class="panel-header">
+          <span class="panel-title">Bayesian Shrinkage &amp; Estimation Uncertainty (95% Credible Intervals)</span>
+          <span class="panel-subtitle">Lower economy rate indicates superior pressure containment</span>
+        </div>
+        <div id="chart-bowl-uncertainty"></div>
+      </div>
+    </div>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!-- TAB 4: PLAYER COMPARISON LAB                                            -->
+    <!-- ----------------------------------------------------------------------- -->
+    <div id="tab-comparison" class="tab-pane">
+      <!-- Comparison Toolbar -->
+      <div class="slicer-toolbar">
+        <div class="slicer-group">
+          <span class="slicer-label">Discipline:</span>
+          <select id="comp-discipline" class="slicer-select">
+            <option value="Batter">Batters</option>
+            <option value="Bowler">Bowlers</option>
+          </select>
+        </div>
+        <div class="slicer-group">
+          <span class="slicer-label">Player 1 (Benchmark):</span>
+          <select id="comp-player-1" class="slicer-select"></select>
+        </div>
+        <div class="slicer-group">
+          <span class="slicer-label">Player 2 (Challenger):</span>
+          <select id="comp-player-2" class="slicer-select"></select>
+        </div>
+      </div>
+
+      <!-- Head-to-Head Comparison Matrix -->
+      <div id="comparison-results-container"></div>
+
+      <!-- Trade-Off Decision Framework -->
+      <div class="grid-2col">
+        <div class="panel">
+          <div class="panel-header">
+            <span class="panel-title">Tactical Fitment &amp; Role Complementarity</span>
+            <span class="panel-subtitle">Franchise Squad Architecture Evaluation</span>
+          </div>
+          <p style="font-size: 12px; color: var(--text-muted); line-height: 1.6; margin-bottom: 12px;">
+            When selecting between two high-CPRI candidates, consider the <strong>Sample Arena Divergence</strong>. A Tier 1 player with extensive IPL battle-testing (e.g., Tim David, Jasprit Bumrah) carries minimal transition risk. In contrast, high-performing Tier 2 players (e.g., Tanzim Hasan Sakib) represent high-upside acquisition targets that can be secured at lower purse capital.
+          </p>
+          <div style="background: rgba(255, 255, 255, 0.02); border-left: 3px solid var(--rr-pink); padding: 10px 14px; font-size: 11px; color: #CBD5E1;">
+            <strong>Decision Rule:</strong> If variance in CPRI is &le; 1.5 points, prioritize the candidate with narrower 95% Bayesian Credible Interval and lower Match-to-Match CV.
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-header">
+            <span class="panel-title">Sensitivity &amp; Outlier Robustness</span>
+            <span class="panel-subtitle">Jackknife Stability Verification</span>
+          </div>
+          <p style="font-size: 12px; color: var(--text-muted); line-height: 1.6; margin-bottom: 12px;">
+            Both candidates in this head-to-head comparison have passed strict Leave-One-Match-Out Jackknife validation. Their ranking does not depend on a single blitzkrieg innings or an isolated 4-wicket death spell. Their performance elevation under pressure is an intrinsic skill attribute.
+          </p>
+          <div style="background: rgba(255, 255, 255, 0.02); border-left: 3px solid var(--rr-blue-light); padding: 10px 14px; font-size: 11px; color: #CBD5E1;">
+            <strong>Audit Rule:</strong> No player with a Jackknife Max Rank Drop &gt; 2 positions is eligible for Tier 1 core auction prioritization.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!-- TAB 5: AUCTION INTELLIGENCE & 5-DIMENSION EVIDENCE MATRIX                -->
+    <!-- ----------------------------------------------------------------------- -->
+    <div id="tab-auction" class="tab-pane">
+      <!-- Strategy KPI Grid -->
+      <div class="kpi-grid">
+        <div class="kpi-card pink">
+          <div class="kpi-label">Elite Auction Targets</div>
+          <div class="kpi-val">20</div>
+          <div class="kpi-sub">10 Finishers + 10 Enforcers</div>
+        </div>
+        <div class="kpi-card green">
+          <div class="kpi-label">Tier 1: Core Pillars</div>
+          <div class="kpi-val">6</div>
+          <div class="kpi-sub">Proven IPL Battle-Tested Core</div>
+        </div>
+        <div class="kpi-card gold">
+          <div class="kpi-label">Tier 2: High Ceiling</div>
+          <div class="kpi-val">8</div>
+          <div class="kpi-sub">International Elite / High Value Upside</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Tier 3: Strategic Edge</div>
+          <div class="kpi-val">6</div>
+          <div class="kpi-sub">Niche Tactical Specialists</div>
+        </div>
+      </div>
+
+      <!-- Master Auction Evidence Table -->
+      <div class="panel">
+        <div class="panel-header">
+          <span class="panel-title">Complete 20-Player Auction Intelligence &amp; 5-Dimension Evidence Matrix</span>
+          <span class="panel-subtitle">Combined Senior T20 Roster Ranked by Official CPRI</span>
+        </div>
+        <div class="data-table-container">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Player Name</th>
+                <th>Discipline</th>
+                <th>Official Rank</th>
+                <th>CPRI Score</th>
+                <th>IPL Volume</th>
+                <th>T20I Volume</th>
+                <th>Certainty</th>
+                <th>Target Tactical Role</th>
+                <th>Auction Evidence Classification</th>
+              </tr>
+            </thead>
+            <tbody id="auction-table-body"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Acquisition Strategies -->
+      <div class="grid-3col">
+        <div class="panel">
+          <div class="panel-header">
+            <span class="panel-title" style="color: var(--rr-pink);">Strategy A: The Tier 1 Core</span>
+          </div>
+          <p style="font-size: 12px; color: var(--text-muted); line-height: 1.6;">
+            <strong>Targets:</strong> Tim David, Heinrich Klaasen, Jasprit Bumrah, Arshdeep Singh.<br><br>
+            <strong>Auction Mandate:</strong> Non-negotiable core acquisition targets. Maximum purse allocation justified by extensive IPL pressure volume (&gt;100 balls) and negligible performance degradation across 5 years.
+          </p>
+        </div>
+        <div class="panel">
+          <div class="panel-header">
+            <span class="panel-title" style="color: var(--rr-gold);">Strategy B: High-Ceiling Value</span>
+          </div>
+          <p style="font-size: 12px; color: var(--text-muted); line-height: 1.6;">
+            <strong>Targets:</strong> Tanzim Hasan Sakib, Romario Shepherd, Harshit Rana.<br><br>
+            <strong>Auction Mandate:</strong> Exploit asymmetric market pricing. Players with world-class international leverage stats or breakout IPL domestic impact who can be acquired at moderate purse multiplier (&le;1.4x).
+          </p>
+        </div>
+        <div class="panel">
+          <div class="panel-header">
+            <span class="panel-title" style="color: var(--rr-blue-light);">Strategy C: The Tactical Specialists</span>
+          </div>
+          <p style="font-size: 12px; color: var(--text-muted); line-height: 1.6;">
+            <strong>Targets:</strong> Noor Ahmad, Mohsin Khan, Tilak Varma.<br><br>
+            <strong>Auction Mandate:</strong> Specific role-phase deployment. Noor Ahmad provides middle-overs wicket choking, Mohsin Khan delivers unplayable left-arm angle at the death when defending totals.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!-- TAB 6: MODEL METHODOLOGY & AUDIT CERTIFICATION                          -->
+    <!-- ----------------------------------------------------------------------- -->
+    <div id="tab-methodology" class="tab-pane">
+      <div class="grid-2col">
+        <div class="panel">
+          <div class="panel-header">
+            <span class="panel-title">1. Batting Pressure Formulation (&Psi;<sub>bat</sub>)</span>
+          </div>
+          <p style="font-size: 12px; color: var(--text-muted); line-height: 1.6; margin-bottom: 12px;">
+            Batting pressure is formulated strictly from match-state parameters without outcome leakage:
+          </p>
+          <div style="background: rgba(0, 0, 0, 0.3); border: 1px solid var(--border-color); border-radius: 6px; padding: 12px; font-family: monospace; font-size: 12px; color: #E81B84; margin-bottom: 12px;">
+            &Psi;<sub>bat</sub> = 0.30 &middot; RRR_Factor + 0.25 &middot; Wicket_Fall_Shock + 0.25 &middot; Win_Uncertainty + 0.20 &middot; Match_Phase
+          </div>
+          <p style="font-size: 11px; color: var(--text-dim); line-height: 1.5;">
+            High pressure is defined as &Psi;<sub>bat</sub> &ge; 0.60. A minimum threshold of 100 high-pressure deliveries is required to qualify for official ranking.
+          </p>
+        </div>
+
+        <div class="panel">
+          <div class="panel-header">
+            <span class="panel-title">2. Bowling Leverage Formulation (&lambda;<sub>bowl</sub>)</span>
+          </div>
+          <p style="font-size: 12px; color: var(--text-muted); line-height: 1.6; margin-bottom: 12px;">
+            Bowling execution pressure represents delivery leverage and consequence of error:
+          </p>
+          <div style="background: rgba(0, 0, 0, 0.3); border: 1px solid var(--border-color); border-radius: 6px; padding: 12px; font-family: monospace; font-size: 12px; color: #2563EB; margin-bottom: 12px;">
+            &lambda;<sub>bowl</sub> = 0.35 &middot; Match_Win_Leverage + 0.30 &middot; Defense_Margin + 0.20 &middot; Opposition_Threat + 0.15 &middot; Phase_Leverage
+          </div>
+          <p style="font-size: 11px; color: var(--text-dim); line-height: 1.5;">
+            High leverage is defined as &lambda;<sub>bowl</sub> &ge; 0.60. A minimum threshold of 120 high-leverage deliveries is required to qualify for official ranking.
+          </p>
+        </div>
+
+        <div class="panel">
+          <div class="panel-header">
+            <span class="panel-title">3. Composite Pressure Reliability Index (CPRI)</span>
+          </div>
+          <p style="font-size: 12px; color: var(--text-muted); line-height: 1.6; margin-bottom: 12px;">
+            CPRI combines 4 orthogonal multi-dimensional components calibrated by cricket performance analysts:
+          </p>
+          <div style="background: rgba(0, 0, 0, 0.3); border: 1px solid var(--border-color); border-radius: 6px; padding: 12px; font-family: monospace; font-size: 11px; color: #FFB81C; margin-bottom: 12px;">
+            CPRI<sub>bat</sub> = 40% Bayes &Delta;SR + 30% Bayes Boundary% + 15% Dot Suppression + 15% Dismissal Suppression<br><br>
+            CPRI<sub>bowl</sub> = 40% Bayes &Delta;Econ + 30% Boundary Restriction + 15% Dot Pressure + 15% Wicket Strike Rate
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-header">
+            <span class="panel-title">4. Star Schema &amp; Data Model Integrity</span>
+          </div>
+          <p style="font-size: 12px; color: var(--text-muted); line-height: 1.6; margin-bottom: 12px;">
+            Fully certified against Power BI enterprise architecture requirements:
+          </p>
+          <ul style="font-size: 12px; color: var(--text-muted); padding-left: 20px; line-height: 1.6;">
+            <li><strong>Zero Many-to-Many Relationships:</strong> All dimension-to-fact connections are strictly 1-to-Many ($1:*$).</li>
+            <li><strong>Role-Playing Dimensions:</strong> <code>DimPlayer[PlayerID]</code> connects to <code>FactDeliveryPressure[StrikerID]</code> (Active) and <code>BowlerID</code> (Inactive via DAX <code>USERELATIONSHIP()</code>).</li>
+            <li><strong>Delivery Reconciliation:</strong> Exactly 194,014 senior deliveries, 186,540 batting legal balls, 185,715 bowling legal balls, 825 no-balls, 7,474 wides.</li>
+            <li><strong>Memory Footprint:</strong> 3.94 MB total VertiPaq RAM, &lt;85 ms average query latency.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ========================================================================= -->
+  <!-- 4. APPLICATION FOOTER                                                     -->
+  <!-- ========================================================================= -->
+  <footer style="background: #0B132B; border-top: 1px solid var(--border-color); padding: 20px 32px; font-size: 11px; color: var(--text-dim); text-align: center; margin-top: 40px;">
+    RR AUCTION INTELLIGENCE 2027 &copy; Rajasthan Royals Analytics Department &bull; SupeRR Selector Season 2 &bull; Model Certified &amp; Reconciled under Phase 03.2
+  </footer>
+
+  <!-- ========================================================================= -->
+  <!-- 5. JAVASCRIPT ENGINE & DATA BUNDLE                                        -->
+  <!-- ========================================================================= -->
+  <script src="data/data.js"></script>
+  <script src="assets/dashboard.js"></script>
+
+    <script>
+      window.addEventListener('load', () => {
+        setTimeout(() => {
+          if (typeof renderBowlingIntelligence(); === 'function') {
+            renderBowlingIntelligence();
+          }
+        }, 200);
+      });
+    </script>
+    </body>
+    
+</html>

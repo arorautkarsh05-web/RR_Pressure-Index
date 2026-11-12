@@ -1,0 +1,12 @@
+Deliverable_Asset,File_Path,File_Size_Bytes,Asset_Status,Batters_Rank_1_Score,Bowlers_Rank_1_Score,Top10_Integrity,Certification_Status
+top_10_batters_FINAL.csv,outputs\final_submission\top_10_batters_FINAL.csv,4744,PRESENT_AND_VERIFIED,Naman Dhir (74.41),Jasprit Bumrah (76.83),100% PARITY,PASS
+top_10_bowlers_FINAL.csv,outputs\final_submission\top_10_bowlers_FINAL.csv,4594,PRESENT_AND_VERIFIED,Naman Dhir (74.41),Jasprit Bumrah (76.83),100% PARITY,PASS
+top_10_batters_FINAL.xlsx,outputs\final_submission\top_10_batters_FINAL.xlsx,8840,PRESENT_AND_VERIFIED,Naman Dhir (74.41),Jasprit Bumrah (76.83),100% PARITY,PASS
+top_10_bowlers_FINAL.xlsx,outputs\final_submission\top_10_bowlers_FINAL.xlsx,8640,PRESENT_AND_VERIFIED,Naman Dhir (74.41),Jasprit Bumrah (76.83),100% PARITY,PASS
+player_intelligence_summary.xlsx,outputs\final_submission\player_intelligence_summary.xlsx,14096,PRESENT_AND_VERIFIED,Naman Dhir (74.41),Jasprit Bumrah (76.83),100% PARITY,PASS
+methodology_report_FINAL.pdf,outputs\final_submission\methodology_report_FINAL.pdf,714366,PRESENT_AND_VERIFIED,Naman Dhir (74.41),Jasprit Bumrah (76.83),100% PARITY,PASS
+methodology_report_FINAL.html,outputs\final_submission\methodology_report_FINAL.html,104024,PRESENT_AND_VERIFIED,Naman Dhir (74.41),Jasprit Bumrah (76.83),100% PARITY,PASS
+executive_presentation_FINAL.pptx,outputs\final_submission\executive_presentation_FINAL.pptx,63629,PRESENT_AND_VERIFIED,Naman Dhir (74.41),Jasprit Bumrah (76.83),100% PARITY,PASS
+executive_presentation_FINAL.pdf,outputs\final_submission\executive_presentation_FINAL.pdf,340424,PRESENT_AND_VERIFIED,Naman Dhir (74.41),Jasprit Bumrah (76.83),100% PARITY,PASS
+dim_ranking.csv (Power BI),dashboard\data\dim_ranking.csv,5114,PRESENT_AND_VERIFIED,Naman Dhir (74.41),Jasprit Bumrah (76.83),100% PARITY,PASS
+dashboard_data.json (HTML Dashboard),dashboard\html\data\dashboard_data.json,195824,PRESENT_AND_VERIFIED,Naman Dhir (74.41),Jasprit Bumrah (76.83),100% PARITY,PASS

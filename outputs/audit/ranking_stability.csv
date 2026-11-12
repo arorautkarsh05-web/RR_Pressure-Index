@@ -1,0 +1,13 @@
+Discipline,Sample_Cutoff,Eligible_Pool,Cohort_Spearman_Rho,Cohort_Kendall_Tau,Top10_Overlap_Pct,Top20_Overlap_Pct,Fragile_Players_Identified
+Batter,N >= 30 balls,178,0.9996,0.9906,90.0,85.0,None (Robust)
+Batter,N >= 40 balls,139,0.9998,0.9941,90.0,90.0,None (Robust)
+Batter,N >= 50 balls,117,1.0,1.0,100.0,100.0,None (Robust)
+Batter,N >= 60 balls,93,0.9997,0.9939,90.0,90.0,Phil Salt (dropped at N>=60); Naman Dhir & Reeza Hendricks (dropped at N>=100)
+Batter,N >= 75 balls,73,0.9983,0.9779,90.0,90.0,Phil Salt (dropped at N>=60); Naman Dhir & Reeza Hendricks (dropped at N>=100)
+Batter,N >= 100 balls,45,0.9991,0.9879,70.0,70.0,Phil Salt (dropped at N>=60); Naman Dhir & Reeza Hendricks (dropped at N>=100)
+Bowler,N >= 40 balls,300,1.0,0.9978,90.0,95.0,None (Robust)
+Bowler,N >= 50 balls,277,0.9999,0.9965,90.0,95.0,None (Robust)
+Bowler,N >= 60 balls,250,1.0,1.0,100.0,100.0,None (Robust)
+Bowler,N >= 75 balls,223,1.0,0.9987,100.0,95.0,None (Robust)
+Bowler,N >= 100 balls,194,0.9999,0.9971,90.0,85.0,George Dockrell (dropped at N>=100); Salman Mirza (dropped at N>=120)
+Bowler,N >= 120 balls,176,0.9999,0.9947,70.0,75.0,George Dockrell (dropped at N>=100); Salman Mirza (dropped at N>=120)

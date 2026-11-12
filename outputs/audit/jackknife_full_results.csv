@@ -1,0 +1,21 @@
+discipline,official_rank,player_id,player_name,qualified_matches_count,baseline_metric,jackknife_mean,jackknife_se,worst_case_metric_lomo,best_case_metric_lomo,max_negative_shift,max_positive_shift,worst_case_rank_lomo,max_rank_degradation,most_influential_match_id,influential_match_shift,jackknife_verdict
+Batter,1,37052,Naman Dhir,6,217.78,216.44,13.96,205.33,225.32,-12.44,7.54,2,1,54210,-12.44,Highly Resilient
+Batter,2,6396,Tim David,16,199.02,198.79,13.52,191.84,203.83,-7.18,4.81,5,3,41507,-7.18,Moderately Sensitive
+Batter,3,5553,Phil Salt,4,235.19,235.44,6.44,231.25,241.18,-3.94,5.99,1,-2,28065,5.99,Highly Resilient
+Batter,4,813,Jos Buttler,7,189.04,189.35,11.9,182.96,196.43,-6.08,7.39,9,5,50381,7.39,Moderately Sensitive
+Batter,5,768,Reeza Hendricks,4,185.56,186.27,29.71,166.67,213.85,-18.89,28.29,10,5,25155,28.29,Moderately Sensitive
+Batter,6,838,Glenn Maxwell,9,192.2,191.88,23.74,176.38,203.94,-15.82,11.74,9,3,20204,-15.82,Moderately Sensitive
+Batter,7,8101,Ashutosh Sharma,12,192.03,191.85,13.9,185.71,200.0,-6.31,7.97,6,-1,40722,7.97,Highly Resilient
+Batter,8,4708,Rinku Singh,12,183.96,184.04,17.52,175.0,189.6,-8.96,5.64,9,1,20248,-8.96,Highly Resilient
+Batter,9,1699,Suryakumar Yadav,17,173.08,173.2,13.21,163.79,178.71,-9.28,5.63,10,1,16042,-9.28,Highly Resilient
+Batter,10,3647,Shreyas Iyer,9,185.47,185.9,15.31,175.64,194.27,-9.83,8.79,9,-1,40766,-9.83,Highly Resilient
+Bowler,1,2933,Jasprit Bumrah,64,6.94,6.94,0.44,7.06,6.77,0.13,-0.17,7,6,14145,-0.17,Moderately Sensitive
+Bowler,2,2984,Sikandar Raza,26,6.44,6.44,0.57,6.69,6.17,0.25,-0.27,5,3,50508,-0.27,Moderately Sensitive
+Bowler,3,7364,Haris Rauf,40,7.56,7.56,0.46,7.68,7.36,0.13,-0.2,9,6,28965,-0.2,Moderately Sensitive
+Bowler,4,1101,George Dockrell,8,5.29,5.28,0.94,6.0,4.7,0.71,-0.59,2,-2,48466,0.71,Highly Resilient
+Bowler,5,3578,Imad Wasim,9,5.77,5.76,0.51,6.0,5.49,0.23,-0.28,2,-3,32290,-0.28,Highly Resilient
+Bowler,6,20704,Salman Mirza,12,6.76,6.76,0.81,7.12,6.25,0.36,-0.51,7,1,55080,-0.51,Highly Resilient
+Bowler,7,8661,Matheesha Pathirana,36,7.93,7.93,0.56,8.15,7.74,0.23,-0.19,10,3,48610,0.23,Moderately Sensitive
+Bowler,8,34485,Sufiyan Muqeem,10,6.26,6.26,1.35,6.76,5.27,0.49,-1.0,5,-3,38795,-1.0,Highly Resilient
+Bowler,9,6643,Hasan Mahmud,13,7.42,7.41,0.98,7.85,6.97,0.43,-0.45,9,0,42783,-0.45,Highly Resilient
+Bowler,10,7690,Saim Ayub,19,6.57,6.57,0.53,6.8,6.33,0.22,-0.25,6,-4,48915,-0.25,Highly Resilient

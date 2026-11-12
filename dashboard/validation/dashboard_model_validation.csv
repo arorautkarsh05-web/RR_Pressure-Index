@@ -1,0 +1,11 @@
+Table_Name,Table_Type,Primary_Key,Record_Count,Column_Count,Primary_Key_Present,Primary_Key_Unique,Null_Primary_Keys,Validation_Status
+dim_player,Dimension,PlayerID,891,6,True,True,0,Passed
+dim_competition,Dimension,CompID,136,5,True,True,0,Passed
+dim_team,Dimension,TeamID,38,3,True,True,0,Passed
+dim_date,Dimension,DateKey,663,7,True,True,0,Passed
+dim_match,Dimension,MatchID,837,10,True,True,0,Passed
+dim_context,Dimension,ContextID,6,7,True,True,0,Passed
+dim_ranking,Dimension,RankingID,20,11,True,True,0,Passed
+fact_delivery_pressure,Fact,DeliveryID,194014,21,True,True,0,Passed
+fact_player_match_performance,Fact,PlayerMatchID,29416,12,True,True,0,Passed
+fact_player_pressure_performance,Fact,PlayerPressurePerfID,1235,19,True,True,0,Passed

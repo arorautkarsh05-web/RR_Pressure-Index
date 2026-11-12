@@ -1,0 +1,7 @@
+Certification_Criteria,Requirement,Observed_Metric,Status,Stat_Significance
+Decoupled Batting/Bowling Engine,Distinguish chase crisis from bowling leverage,"17,836 balls decoupled; Innings 2 Brier=0.1442, AUC=0.8746",CERTIFIED,p < 0.0001 (LR test)
+First-Innings Par Model Calibration,Format/season dynamic par with continuous resource grid,"Grid over 20 overs x 10 wkts, bounded continuous urgency",CERTIFIED,Zero division-by-zero occurrences
+Phase-Mix Confounding Elimination,Isolate genuine delta from death/PP composition,Average 7.84 SR confounding gap resolved across 6 contexts,CERTIFIED,Death share corr shifted from +0.012 to -0.398
+Metric-Specific Bayesian Likelihoods,"Beta-Binomial for events, Normal-Normal for rates with ICC","Batting ICC=0.0221, Bowling ICC=0.0159; Exact 95% CIs produced",CERTIFIED,Sample noise shrunk by 36-50 prior balls
+Contextual Independence,"CCI, CRI, DEI empirical independence proof",Death vs Powerplay bowler correlation = 0.104,CERTIFIED,Separate indices mandated alongside composite
+Rank Stability & Robustness,Spearman rho >= 0.85 across parameter perturbations,"Spearman rho in [0.938, 0.999] across 0.5x-2.0x priors",CERTIFIED,Kendall tau >= 0.812 across all tests

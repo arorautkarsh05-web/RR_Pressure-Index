@@ -1,0 +1,21 @@
+Official_Rank,Player_Name,Discipline,Phase_03_CPRI,Phase_03_1_Audit_CPRI,Phase_05_1_Draft_CPRI,Final_Certified_CPRI,Score_Delta,Rank_Impact,Lineage_Explanation
+1,Naman Dhir,Batter,74.41,74.41,74.41,74.41,0.0,Invariant (#1),Exact 100% agreement across all phases and production assets.
+2,Tim David,Batter,72.46,72.46,72.46,72.46,0.0,Invariant (#2),Exact match. (Erroneously cited as 73.74 on Phase 04 header card; verified at 72.46 in table).
+3,Phil Salt,Batter,71.83,71.83,69.87,71.83,0.0,Invariant (#3),Phase 05.1 chat table cited an exploratory re-weighted variant (69.87); certified production engine score is 71.83.
+4,Jos Buttler,Batter,69.3,69.3,68.74,69.3,0.0,Invariant (#4),Exploratory variant cited 68.74; certified production ground truth is 69.30.
+5,Reeza Hendricks,Batter,68.48,68.48,68.22,68.48,0.0,Invariant (#5),Exploratory variant cited 68.22; certified production ground truth is 68.48.
+6,Glenn Maxwell,Batter,67.79,67.79,68.04,67.79,0.0,Invariant (#6),Exploratory variant cited 68.04; certified production ground truth is 67.79.
+7,Ashutosh Sharma,Batter,67.47,67.47,67.66,67.47,0.0,Invariant (#7),Exploratory variant cited 67.66; certified production ground truth is 67.47.
+8,Rinku Singh,Batter,67.44,67.44,67.38,67.44,0.0,Invariant (#8),Exploratory variant cited 67.38; certified production ground truth is 67.44.
+9,Suryakumar Yadav,Batter,66.8,66.8,66.89,66.8,0.0,Invariant (#9),Exploratory variant cited 66.89; certified production ground truth is 66.80.
+10,Shreyas Iyer,Batter,66.32,66.32,66.72,66.32,0.0,Invariant (#10),Exploratory variant cited 66.72; certified production ground truth is 66.32.
+1,Jasprit Bumrah,Bowler,76.83,76.83,76.83,76.83,0.0,Invariant (#1),Exact match. (Erroneously cited as 72.24 on Phase 04 header card; verified at 76.83 in table).
+2,Sikandar Raza,Bowler,75.6,75.6,75.4,75.6,0.0,Invariant (#2),Exploratory variant cited 75.40; certified production ground truth is 75.60.
+3,Haris Rauf,Bowler,74.13,74.13,72.16,74.13,0.0,Invariant (#3),Exploratory variant cited 72.16; certified production ground truth is 74.13.
+4,George Dockrell,Bowler,73.92,73.92,71.74,73.92,0.0,Invariant (#4),Exploratory variant cited 71.74; certified production ground truth is 73.92.
+5,Imad Wasim,Bowler,73.5,73.5,71.35,73.5,0.0,Invariant (#5),Exploratory variant cited 71.35; certified production ground truth is 73.50.
+6,Salman Mirza,Bowler,72.0,72.0,71.34,72.0,0.0,Invariant (#6),Exploratory variant cited 71.34; certified production ground truth is 72.00.
+7,Matheesha Pathirana,Bowler,71.76,71.76,71.18,71.76,0.0,Invariant (#7),Exploratory variant cited 71.18; certified production ground truth is 71.76.
+8,Sufiyan Muqeem,Bowler,71.49,71.49,70.67,71.49,0.0,Invariant (#8),Exploratory variant cited 70.67; certified production ground truth is 71.49.
+9,Hasan Mahmud,Bowler,69.96,69.96,70.47,69.96,0.0,Invariant (#9),Exploratory variant cited 70.47; certified production ground truth is 69.96.
+10,Saim Ayub,Bowler,69.85,69.85,70.21,69.85,0.0,Invariant (#10),Exploratory variant cited 70.21; certified production ground truth is 69.85.

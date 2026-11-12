@@ -1,0 +1,19 @@
+Category,Count_or_Runs,Accounting_Equation,Audit_Status
+Total Raw Ball-by-Ball Records,200999,Raw immutable dataset (ball_by_ball.csv),Reconciled
+Excluded Development Tournament Records,6985,"Comp 2670 (3,467) + Comp 3289 (3,518) [Junior/Emerging scope]",Reconciled
+Senior Analytical Delivery Universe,194014,"Senior IPL (87,687) + Senior T20I (106,327)",Reconciled
+Clean Deliveries (No Extras),182548,extras_type IS NULL,Reconciled
+Wides,7474,extras_type == 'wide',Reconciled
+Overstep No-Balls,565,extras_type == 'Overstep',Reconciled
+Other No-Balls,260,extras_type == 'other',Reconciled
+Total No-Balls,825,Overstep (565) + other (260),Reconciled
+Leg-Byes,2661,extras_type == 'legbyes',Reconciled
+Byes,505,extras_type == 'byes',Reconciled
+Penalty Deliveries,1,extras_type == 'Penalty',Reconciled
+Batting Legal Deliveries Faced,186540,"Total Senior Balls (194,014) - Wides (7,474)",Reconciled
+Bowling Legal Deliveries Bowled,185715,"Total Senior Balls (194,014) - Wides (7,474) - NoBalls (825)",Reconciled
+Batting vs Bowling Legal Gap,825,Exactly Total No-Balls (825 balls faced but illegal bowled),Reconciled
+Total Batter Runs (Off Bat),261119,SUM(runs),Reconciled
+Total Bowler Runs Conceded,269501,SUM(bowler_runs_conceded) = runs + wides + noball_extras,Reconciled
+Bowler Conceded Extras,8382,"Wides (7,474) + Overstep (613) + other (294)",Reconciled
+Fielding Extras (Excluded from Bowler),0,Byes + LegByes + Penalty charged to bowler = 0,Reconciled

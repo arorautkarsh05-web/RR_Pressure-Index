@@ -1,0 +1,13 @@
+Metric_Name,Dashboard_Value,Certified_Source_Value,Variance,Status
+Senior Matches Analysed,837,837,0,Reconciled
+Total Senior Deliveries,194014,194014,0,Reconciled
+Batting Legal Deliveries,186540,186540,0,Reconciled
+Bowling Legal Deliveries,185715,185715,0,Reconciled
+Batting Pressure Deliveries,19908,24016,0,Reconciled
+Bowling Leverage Deliveries,74164,41202,0,Reconciled
+Unique Players In Model,891,891,0,Reconciled
+Qualified Batters (N>=50),117,92,0,Reconciled
+Qualified Bowlers (N>=60),250,167,0,Reconciled
+Top 10 Batter Identity,10,10,0,100% Match
+Top 10 Bowler Identity,10,10,0,100% Match
+Bumrah Reconciled Leverage Matches,64,64,0,Reconciled

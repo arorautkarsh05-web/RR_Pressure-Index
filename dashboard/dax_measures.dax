@@ -1,0 +1,342 @@
+// ==============================================================================
+// RR PRESSURE INDEX 2027 — CERTIFIED DAX MEASURES LIBRARY
+// Phase 04: Production Power BI Implementation
+// Target Tool: Microsoft Power BI Desktop (May 2024+ engine)
+// Model: Star Schema (Import Mode)
+// Integrity: Zero Many-to-Many Relationships; Explicit Surrogate Key Joins
+// ==============================================================================
+
+// ------------------------------------------------------------------------------
+// 1. VOLUME & BALL COUNT MEASURES
+// ------------------------------------------------------------------------------
+
+[Total Deliveries Faced] = 
+CALCULATE(
+    COUNTROWS(FactDeliveryPressure),
+    FactDeliveryPressure[IsLegalBatting] = 1
+)
+
+[Total Deliveries Bowled] = 
+CALCULATE(
+    COUNTROWS(FactDeliveryPressure),
+    FactDeliveryPressure[IsLegalBowling] = 1,
+    USERELATIONSHIP(DimPlayer[PlayerID], FactDeliveryPressure[BowlerID])
+)
+
+[Pressure Deliveries Faced] = 
+CALCULATE(
+    [Total Deliveries Faced],
+    FactDeliveryPressure[IsBatPressure] = 1
+)
+
+[Leverage Deliveries Bowled] = 
+CALCULATE(
+    [Total Deliveries Bowled],
+    FactDeliveryPressure[IsBowlLeverage] = 1
+)
+
+[Normal Deliveries Faced] = 
+CALCULATE(
+    [Total Deliveries Faced],
+    FactDeliveryPressure[IsBatPressure] = 0
+)
+
+[Normal Deliveries Bowled] = 
+CALCULATE(
+    [Total Deliveries Bowled],
+    FactDeliveryPressure[IsBowlLeverage] = 0
+)
+
+[Pressure Exposure Share Bat %] = 
+DIVIDE(
+    [Pressure Deliveries Faced],
+    [Total Deliveries Faced],
+    BLANK()
+)
+
+[Leverage Exposure Share Bowl %] = 
+DIVIDE(
+    [Leverage Deliveries Bowled],
+    [Total Deliveries Bowled],
+    BLANK()
+)
+
+// ------------------------------------------------------------------------------
+// 2. RUNS & DISMISSAL AGGREGATIONS
+// ------------------------------------------------------------------------------
+
+[Total Runs Scored] = 
+CALCULATE(
+    SUM(FactDeliveryPressure[RunsBat]),
+    FactDeliveryPressure[IsLegalBatting] = 1
+)
+
+[Pressure Runs Scored] = 
+CALCULATE(
+    SUM(FactDeliveryPressure[RunsBat]),
+    FactDeliveryPressure[IsBatPressure] = 1,
+    FactDeliveryPressure[IsLegalBatting] = 1
+)
+
+[Normal Runs Scored] = 
+CALCULATE(
+    SUM(FactDeliveryPressure[RunsBat]),
+    FactDeliveryPressure[IsBatPressure] = 0,
+    FactDeliveryPressure[IsLegalBatting] = 1
+)
+
+[Total Bowler Runs Conceded] = 
+CALCULATE(
+    SUM(FactDeliveryPressure[BowlerRunsConceded]),
+    USERELATIONSHIP(DimPlayer[PlayerID], FactDeliveryPressure[BowlerID])
+)
+
+[Leverage Runs Conceded] = 
+CALCULATE(
+    SUM(FactDeliveryPressure[BowlerRunsConceded]),
+    FactDeliveryPressure[IsBowlLeverage] = 1,
+    USERELATIONSHIP(DimPlayer[PlayerID], FactDeliveryPressure[BowlerID])
+)
+
+[Normal Runs Conceded] = 
+CALCULATE(
+    SUM(FactDeliveryPressure[BowlerRunsConceded]),
+    FactDeliveryPressure[IsBowlLeverage] = 0,
+    USERELATIONSHIP(DimPlayer[PlayerID], FactDeliveryPressure[BowlerID])
+)
+
+[Pressure Dismissals] = 
+CALCULATE(
+    SUM(FactDeliveryPressure[IsWicket]),
+    FactDeliveryPressure[IsBatPressure] = 1,
+    FactDeliveryPressure[IsLegalBatting] = 1
+)
+
+[Leverage Wickets Taken] = 
+CALCULATE(
+    SUM(FactDeliveryPressure[IsBowlerWicket]),
+    FactDeliveryPressure[IsBowlLeverage] = 1,
+    USERELATIONSHIP(DimPlayer[PlayerID], FactDeliveryPressure[BowlerID])
+)
+
+// ------------------------------------------------------------------------------
+// 3. PERFORMANCE RATES & SCORING VELOCITY
+// ------------------------------------------------------------------------------
+
+[Pressure Strike Rate] = 
+DIVIDE(
+    [Pressure Runs Scored] * 100.0,
+    [Pressure Deliveries Faced],
+    BLANK()
+)
+
+[Normal Baseline Strike Rate] = 
+DIVIDE(
+    [Normal Runs Scored] * 100.0,
+    [Normal Deliveries Faced],
+    BLANK()
+)
+
+[Delta Context Strike Rate] = 
+[Pressure Strike Rate] - [Normal Baseline Strike Rate]
+
+[Leverage Economy Rate] = 
+DIVIDE(
+    [Leverage Runs Conceded] * 6.0,
+    [Leverage Deliveries Bowled],
+    BLANK()
+)
+
+[Normal Baseline Economy Rate] = 
+DIVIDE(
+    [Normal Runs Conceded] * 6.0,
+    [Normal Deliveries Bowled],
+    BLANK()
+)
+
+[Delta Context Economy Rate] = 
+[Leverage Economy Rate] - [Normal Baseline Economy Rate]
+
+// ------------------------------------------------------------------------------
+// 4. BOUNDARY & DOT-BALL RATIOS
+// ------------------------------------------------------------------------------
+
+[Pressure Boundaries Hit] = 
+CALCULATE(
+    SUM(FactDeliveryPressure[IsFour]) + SUM(FactDeliveryPressure[IsSix]),
+    FactDeliveryPressure[IsBatPressure] = 1,
+    FactDeliveryPressure[IsLegalBatting] = 1
+)
+
+[Pressure Boundary %] = 
+DIVIDE(
+    [Pressure Boundaries Hit],
+    [Pressure Deliveries Faced],
+    BLANK()
+)
+
+[Pressure Dots Faced] = 
+CALCULATE(
+    COUNTROWS(FactDeliveryPressure),
+    FactDeliveryPressure[IsBatPressure] = 1,
+    FactDeliveryPressure[RunsBat] = 0,
+    FactDeliveryPressure[IsLegalBatting] = 1
+)
+
+[Pressure Dot %] = 
+DIVIDE(
+    [Pressure Dots Faced],
+    [Pressure Deliveries Faced],
+    BLANK()
+)
+
+[Leverage Boundaries Conceded] = 
+CALCULATE(
+    SUM(FactDeliveryPressure[IsFour]) + SUM(FactDeliveryPressure[IsSix]),
+    FactDeliveryPressure[IsBowlLeverage] = 1,
+    FactDeliveryPressure[IsLegalBowling] = 1,
+    USERELATIONSHIP(DimPlayer[PlayerID], FactDeliveryPressure[BowlerID])
+)
+
+[Leverage Conceded Boundary %] = 
+DIVIDE(
+    [Leverage Boundaries Conceded],
+    [Leverage Deliveries Bowled],
+    BLANK()
+)
+
+[Leverage Dots Bowled] = 
+CALCULATE(
+    COUNTROWS(FactDeliveryPressure),
+    FactDeliveryPressure[IsBowlLeverage] = 1,
+    FactDeliveryPressure[BowlerRunsConceded] = 0,
+    FactDeliveryPressure[IsLegalBowling] = 1,
+    USERELATIONSHIP(DimPlayer[PlayerID], FactDeliveryPressure[BowlerID])
+)
+
+[Leverage Dot %] = 
+DIVIDE(
+    [Leverage Dots Bowled],
+    [Leverage Deliveries Bowled],
+    BLANK()
+)
+
+[Leverage Wicket Strike Rate] = 
+DIVIDE(
+    [Leverage Deliveries Bowled],
+    [Leverage Wickets Taken],
+    BLANK()
+)
+
+// ------------------------------------------------------------------------------
+// 5. BAYESIAN POSTERIOR METRICS & UNCERTAINTY BOUNDS
+// ------------------------------------------------------------------------------
+
+[Bayes Estimate Rate] = 
+SELECTEDVALUE(FactPlayerPressurePerformance[BayesEstimate])
+
+[Bayes CI Low] = 
+SELECTEDVALUE(FactPlayerPressurePerformance[Bayes_CI_Low])
+
+[Bayes CI High] = 
+SELECTEDVALUE(FactPlayerPressurePerformance[Bayes_CI_High])
+
+[Bayes CI Width] = 
+SELECTEDVALUE(FactPlayerPressurePerformance[Bayes_CI_Width])
+
+[Bayes Error Margin] = 
+DIVIDE([Bayes CI Width], 2.0, BLANK())
+
+// ------------------------------------------------------------------------------
+// 6. OFFICIAL CPRI & DYNAMIC COMPOSITE SCORES
+// ------------------------------------------------------------------------------
+
+[Official CPRI Score] = 
+SELECTEDVALUE(DimRanking[CPRI])
+
+[CPRI CI Low] = 
+SELECTEDVALUE(DimRanking[CPRI_CI_Low])
+
+[CPRI CI High] = 
+SELECTEDVALUE(DimRanking[CPRI_CI_High])
+
+[CPRI Error Bar Length] = 
+DIVIDE([CPRI CI High] - [CPRI CI Low], 2.0, BLANK())
+
+// ------------------------------------------------------------------------------
+// 7. MATCH-LEVEL CONSISTENCY & OUTLIER JACKKNIFE
+// ------------------------------------------------------------------------------
+
+[Match Level CV] = 
+SELECTEDVALUE(FactPlayerPressurePerformance[MatchCV])
+
+[Match Success Rate %] = 
+SELECTEDVALUE(FactPlayerPressurePerformance[MatchSuccessRate])
+
+[Jackknife Worst Case Metric] = 
+SELECTEDVALUE(FactPlayerPressurePerformance[JackknifeWorstCaseMetric])
+
+[Jackknife SE] = 
+SELECTEDVALUE(FactPlayerPressurePerformance[JackknifeSE])
+
+[Jackknife Degradation Delta] = 
+ABS([Bayes Estimate Rate] - [Jackknife Worst Case Metric])
+
+// ------------------------------------------------------------------------------
+// 8. AUCTION EVIDENCE & VALUATION MEASURES
+// ------------------------------------------------------------------------------
+
+[Auction Evidence Tier] = 
+SELECTEDVALUE(DimRanking[OverallEvidenceTier])
+
+[Sample Confidence Class] = 
+SELECTEDVALUE(DimRanking[ConfidenceClass])
+
+[Player Official Rank] = 
+SELECTEDVALUE(DimRanking[OfficialRank])
+
+[Auction Purse Multiplier Range] = 
+SWITCH(
+    [Player Official Rank],
+    1, "2.5x - 3.0x Baseline",
+    2, "2.5x - 3.0x Baseline",
+    3, "2.5x - 3.0x Baseline",
+    4, "2.2x - 2.5x Baseline",
+    5, "1.8x - 2.2x Baseline",
+    6, "1.8x - 2.2x Baseline",
+    7, "1.8x - 2.2x Baseline",
+    8, "1.5x - 1.8x Baseline",
+    9, "1.5x - 1.8x Baseline",
+    10, "1.2x - 1.5x Baseline",
+    "1.0x Baseline"
+)
+
+// ------------------------------------------------------------------------------
+// 9. DYNAMIC UI & CARD TITLE FORMATTERS
+// ------------------------------------------------------------------------------
+
+[Selected Player Name] = 
+SELECTEDVALUE(DimPlayer[PlayerName], "Select a Player")
+
+[Selected Player Header Text] = 
+VAR PlayerName = SELECTEDVALUE(DimPlayer[PlayerName], "League Overview")
+VAR Disc = SELECTEDVALUE(DimRanking[Discipline], "")
+VAR RankNum = SELECTEDVALUE(DimRanking[OfficialRank], 0)
+RETURN
+IF(
+    RankNum > 0,
+    PlayerName & " (Rank #" & RankNum & " " & Disc & " | CPRI: " & FORMAT([Official CPRI Score], "0.00") & ")",
+    PlayerName
+)
+
+[Linguistic Governance Status] = 
+SWITCH(
+    [Player Official Rank],
+    1, "Certified Top 10 Contender (Leading Tier)",
+    2, "Certified Top 10 Contender (Elite Core)",
+    3, "Certified Top 10 Asset",
+    4, "Certified Top 10 Asset",
+    5, "Certified Top 10 Asset",
+    "Certified Tactical Asset"
+)
+

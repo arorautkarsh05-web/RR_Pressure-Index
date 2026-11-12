@@ -1,0 +1,142 @@
+comp_id,comp_name,match_format,season,total_matches,matches_with_bbb,abandoned_matches,scope_status,filtering_rationale
+2670,Mens T20 Emerging Teams Asia Cup 2024,T20,2024,15,15,0,Excluded — Domestic/Emerging T20,Rule 3: Non-IPL domestic / emerging development tournament excluded from senior franchise evaluation.
+3289,Asia Cup Rising Stars 2025,T20,2025,15,15,0,Excluded — Domestic/Emerging T20,Rule 3: Non-IPL domestic / emerging development tournament excluded from senior franchise evaluation.
+1358,IPL 2022,T20,2022,74,74,0,Included — IPL,Rule 1: All IPL seasons 2022-2026 explicitly required by challenge scope.
+1715,IPL 2023,T20,2023,74,74,0,Included — IPL,Rule 1: All IPL seasons 2022-2026 explicitly required by challenge scope.
+2193,IPL 2024,T20,2024,74,71,3,Included — IPL,Rule 1: All IPL seasons 2022-2026 explicitly required by challenge scope.
+2725,IPL 2025,T20,2025,75,74,1,Included — IPL,Rule 1: All IPL seasons 2022-2026 explicitly required by challenge scope.
+3298,IPL 2026,T20,2026,74,74,0,Included — IPL,Rule 1: All IPL seasons 2022-2026 explicitly required by challenge scope.
+1543,Afghanistan in Ireland T20I Series 2022,T20I,2022,5,5,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1458,Afghanistan in Zimbabwe T20I Series 2022,T20I,2022,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1551,Asia Cup T20 Qualifiers 2022,T20I,2022,6,6,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1584,Australia in India T20I Series 2022,T20I,2022,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1435,Australia in Sri Lanka T20I Series 2022,T20I,2022,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1601,Bangladesh in United Arab Emirates T20I Series 2022,T20I,2022,2,2,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1452,Bangladesh in West Indies T20I Series 2022,T20I,2022,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1523,Bangladesh in Zimbabwe T20I Series 2022,T20I,2022,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1611,England in Australia T20I Series 2022,T20I,2022,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1595,England in Pakistan T20I Series 2022,T20I,2022,7,7,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1331,England in West Indies T20I Series 2022,T20I,2022,5,5,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1494,India in England T20I Series 2022,T20I,2022,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1474,India in Ireland T20I Series 2022,T20I,2022,2,2,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1499,India in West Indies T20I Series 2022,T20I,2022,5,5,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1533,Mens Twenty20 Asia Cup 2022,T20I,2022,13,13,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1512,New Zealand in Ireland T20I Series 2022,T20I,2022,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1534,New Zealand in Netherlands T20I Series 2022,T20I,2022,2,2,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1537,New Zealand in West Indies T20I Series 2022,T20I,2022,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1517,South Africa in England T20I Series 2022,T20I,2022,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1439,South Africa in India T20I Series 2022,T20I,2022,5,5,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1531,South Africa vs Ireland T20I Series 2022,T20I,2022,2,2,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1345,Sri Lanka in Australia T20I Series 2022,T20I,2022,5,5,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1603,West Indies in Australia T20I Series 2022,T20I,2022,2,2,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1335,West Indies in India T20I Series 2022,T20I,2022,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1646,India in New Zealand T20I Series 2022/23,T20I,2022/23,2,2,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1608,New Zealand T20I Tri Series 2022/23,T20I,2022/23,7,7,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1599,South Africa in India T20I Series 2022/23,T20I,2022/23,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1885,Afghanistan in Bangladesh T20I Series 2023,T20I,2023,2,2,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1792,Afghanistan v Pakistan T20I Series 2023,T20I,2023,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2046,Australia in India T20I Series 2023,T20I,2023,5,5,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2000,Australia in South Africa T20I Series 2023,T20I,2023,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2058,Bangladesh in New Zealand T20I Series 2023,T20I,2023,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1742,England in Bangladesh T20I Series 2023,T20I,2023,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2048,England in West Indies T20I Series 2023,T20I,2023,5,5,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1998,India in Ireland T20I Series 2023,T20I,2023,2,2,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2047,India in South Africa T20I Series 2023,T20I,2023,2,2,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1913,India in West Indies T20I Series 2023,T20I,2023,5,5,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1769,Ireland in Bangladesh T20I Series 2023,T20I,2023,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1709,Ireland in Zimbabwe T20I Series 2023,T20I,2023,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1999,New Zealand in England T20I Series 2023,T20I,2023,4,4,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1700,New Zealand in India T20I Series 2023,T20I,2023,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1799,New Zealand in Pakistan T20I Series 2023,T20I,2023,5,5,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1997,New Zealand in United Arab Emirates T20I Series 2023,T20I,2023,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1698,Sri Lanka in India T20I Series 2023,T20I,2023,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1719,Sri Lanka in New Zealand T20I Series 2023,T20I,2023,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+1718,West Indies in South Africa T20I Series 2023,T20I,2023,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2188,Ireland in Zimbabwe T20I Series 2023/24,T20I,2023/24,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2059,Afghanistan in India T20I Series 2024,T20I,2024,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2267,Afghanistan in Sri Lanka T20I Series 2024,T20I,2024,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2753,Afghanistan in Zimbabwe T20I Series 2024,T20I,2024,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2269,Afghanistan v Ireland T20I Series 2024,T20I,2024,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2548,Australia in England T20I Series 2024,T20I,2024,3,2,1,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2062,Australia in New Zealand T20I Series 2024,T20I,2024,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2561,Australia in Scotland T20I Series 2024,T20I,2024,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2512,Bangladesh in India T20I Series 2024,T20I,2024,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2457,Bangladesh in West Indies T20I Series 2024,T20I,2024,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2455,England in West Indies T20I Series 2024,T20I,2024,5,5,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2718,India in South Africa T20I Series 2024,T20I,2024,4,4,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2542,India in Sri Lanka T20I Series 2024,T20I,2024,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2372,India in Zimbabwe T20I Series 2024,T20I,2024,5,5,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2562,Ireland v South Africa T20I Series 2024,T20I,2024,2,2,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2398,Netherlands Tri-Nation T20I Series 2024,T20I,2024,6,5,1,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2605,Netherlands Tri-Nation T20I Series [Aug 2024] 2024,T20I,2024,6,6,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2350,New Zealand in Pakistan T20I Series 2024,T20I,2024,5,5,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2716,New Zealand in Sri Lanka T20I Series 2024,T20I,2024,2,2,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2387,Pakistan in Australia T20I Series 2024,T20I,2024,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2354,Pakistan in England T20I Series 2024,T20I,2024,4,2,2,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2395,Pakistan in Ireland T20I series 2024,T20I,2024,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2060,Pakistan in New Zealand T20I series 2024,T20I,2024,5,5,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2442,Pakistan in South Africa T20I Series 2024,T20I,2024,3,2,1,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2722,Pakistan in Zimbabwe T20I Series 2024,T20I,2024,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2453,South Africa in West Indies T20I Series 2024,T20I,2024,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2452,South Africa in West Indies T20I Series [May 2024] 2024,T20I,2024,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2305,Sri Lanka in Bangladesh T20I Series 2024,T20I,2024,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2061,West Indies in Australia T20I Series 2024,T20I,2024,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2692,West Indies in Sri Lanka T20I Series 2024,T20I,2024,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2371,Zimbabwe in Bangladesh T20I Series 2024,T20I,2024,5,5,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2229,Zimbabwe in Sri Lanka T20I Series 2024,T20I,2024,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2755,Sri Lanka in New Zealand T20I Series 2024/25,T20I,2024/25,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3254,Afghanistan in Zimbabwe T20I Series 2025,T20I,2025,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3228,Afghanistan v Bangladesh T20I Series 2025,T20I,2025,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3133,Asia Cup 2025,T20I,2025,19,19,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3197,Australia in New Zealand T20I Series 2025,T20I,2025,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2874,Australia in West Indies T20I Series 2025,T20I,2025,5,5,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2973,Bangladesh in Pakistan T20I Series 2025,T20I,2025,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3020,Bangladesh in Sri Lanka T20I Series 2025,T20I,2025,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2975,Bangladesh in United Arab Emirates T20I Series 2025,T20I,2025,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2513,England in India T20I Series 2025,T20I,2025,5,5,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3174,England in Ireland T20I series 2025,T20I,2025,3,2,1,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3226,England in New Zealand T20I Series 2025,T20I,2025,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2915,India in Australia T20I Series 2025,T20I,2025,5,5,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2940,India in Bangladesh T20I Series 2025,T20I,2025,0,0,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3251,Ireland in Bangladesh T20I Series 2025,T20I,2025,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2801,Ireland in Zimbabwe T20I Series 2025,T20I,2025,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3190,Nepal v West Indies T20I Series 2025,T20I,2025,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3163,Netherlands in Bangladesh T20I Series 2025,T20I,2025,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3288,Pakistan T20I Tri-Series 2025,T20I,2025,7,7,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3074,Pakistan in Bangladesh T20I Series 2025,T20I,2025,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2793,Pakistan in New Zealand T20I Series 2025,T20I,2025,5,5,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2875,Pakistan in West Indies T20I Series 2025,T20I,2025,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2912,South Africa in Australia T20I Series 2025,T20I,2025,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2628,South Africa in England T20I Series 2025,T20I,2025,3,2,1,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2921,South Africa in India T20I Series 2025,T20I,2025,5,4,1,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3223,South Africa in Pakistan T20I Series 2025,T20I,2025,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3162,Sri Lanka in Zimbabwe T20I Series 2025,T20I,2025,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3159,United Arab Emirates T20I Tri-Series 2025,T20I,2025,7,7,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3241,West Indies in Bangladesh T20I Series 2025,T20I,2025,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2626,West Indies in England T20I Series 2025,T20I,2025,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2873,West Indies in Ireland T20I Series 2025,T20I,2025,3,1,2,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3282,West Indies in New Zealand T20I Series 2025,T20I,2025,5,5,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3405,Afghanistan v Sri Lanka T20I Series 2026,T20I,2026,0,0,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3331,Afghanistan v West Indies T20I Series 2026,T20I,2026,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3787,Afghanistan v Zimbabwe T20I Series 2026,T20I,2026,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3713,Afghanistan vs India in India T20I Series 2026,T20I,2026,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3482,Australia in Bangladesh T20I Series 2026,T20I,2026,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3358,Australia in Pakistan T20I Series 2026,T20I,2026,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3568,Bangladesh in Zimbabwe T20I Series 2026,T20I,2026,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3334,England in Sri Lanka T20I Series 2026,T20I,2026,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3126,India in England T20I Series 2026,T20I,2026,5,5,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3446,India in Ireland T20I Series 2026,T20I,2026,2,2,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3739,India in Japan T20I Match 2026,T20I,2026,1,1,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3690,India in New Zealand T20I Series 2026,T20I,2026,5,5,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3465,India in Zimbabwe T20I Series 2026,T20I,2026,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3313,Ireland in United Arab Emirates T20I Series 2026,T20I,2026,2,2,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3433,New Zealand in Bangladesh T20I Series 2026,T20I,2026,3,2,1,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3329,New Zealand in India T20I Series 2026,T20I,2026,5,5,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3317,Pakistan in Sri Lanka T20I Series 2026,T20I,2026,3,2,1,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3395,South Africa in New Zealand T20I Series 2026,T20I,2026,5,5,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3128,Sri Lanka in England T20I Series 2026,T20I,2026,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3765,Sri Lanka in Pakistan T20I Series 2026,T20I,2026,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3464,Sri Lanka in West Indies T20I Series 2026,T20I,2026,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3473,United Arab Emirates in Nepal T20I Series 2026,T20I,2026,0,0,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+3450,West Indies in India T20I Series 2026,T20I,2026,5,5,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
+2906,West Indies in South Africa T20I Series 2026,T20I,2026,3,3,0,Included — T20I,Rule 2: All international T20I matches 2022-2026 explicitly required by challenge scope.
